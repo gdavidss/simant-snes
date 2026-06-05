@@ -1,0 +1,527 @@
+{
+  "rom_size": 1048576,
+  "lifts_with_addr": 496,
+  "total_func_defs": 945,
+  "weak": 66,
+  "stub": 182,
+  "covered_bytes": 18621,
+  "covered_pct_total": 1.7758369445800781,
+  "est_code_bytes": 645632,
+  "est_data_bytes": 402944,
+  "covered_pct_code": 2.8841507236320383,
+  "per_bank": [
+    {
+      "bank": 0,
+      "total": 32768,
+      "covered": 16497,
+      "code_est": 31744,
+      "data_est": 1024,
+      "pct_total": 50.3448486328125,
+      "pct_code": 51.96887600806452,
+      "n_targets": 350,
+      "n_lifts": 454
+    },
+    {
+      "bank": 1,
+      "total": 32768,
+      "covered": 0,
+      "code_est": 9216,
+      "data_est": 23552,
+      "pct_total": 0.0,
+      "pct_code": 0.0,
+      "n_targets": 30,
+      "n_lifts": 0
+    },
+    {
+      "bank": 2,
+      "total": 32768,
+      "covered": 536,
+      "code_est": 28672,
+      "data_est": 4096,
+      "pct_total": 1.6357421875,
+      "pct_code": 1.8694196428571428,
+      "n_targets": 271,
+      "n_lifts": 13
+    },
+    {
+      "bank": 3,
+      "total": 32768,
+      "covered": 719,
+      "code_est": 28672,
+      "data_est": 4096,
+      "pct_total": 2.1942138671875,
+      "pct_code": 2.5076729910714284,
+      "n_targets": 306,
+      "n_lifts": 12
+    },
+    {
+      "bank": 4,
+      "total": 32768,
+      "covered": 327,
+      "code_est": 24832,
+      "data_est": 7936,
+      "pct_total": 0.9979248046875,
+      "pct_code": 1.3168492268041236,
+      "n_targets": 157,
+      "n_lifts": 13
+    },
+    {
+      "bank": 5,
+      "total": 32768,
+      "covered": 0,
+      "code_est": 17152,
+      "data_est": 15616,
+      "pct_total": 0.0,
+      "pct_code": 0.0,
+      "n_targets": 49,
+      "n_lifts": 0
+    },
+    {
+      "bank": 6,
+      "total": 32768,
+      "covered": 0,
+      "code_est": 17152,
+      "data_est": 15616,
+      "pct_total": 0.0,
+      "pct_code": 0.0,
+      "n_targets": 47,
+      "n_lifts": 0
+    },
+    {
+      "bank": 7,
+      "total": 32768,
+      "covered": 0,
+      "code_est": 11520,
+      "data_est": 21248,
+      "pct_total": 0.0,
+      "pct_code": 0.0,
+      "n_targets": 28,
+      "n_lifts": 0
+    },
+    {
+      "bank": 8,
+      "total": 32768,
+      "covered": 130,
+      "code_est": 19456,
+      "data_est": 13312,
+      "pct_total": 0.396728515625,
+      "pct_code": 0.6681743421052632,
+      "n_targets": 49,
+      "n_lifts": 2
+    },
+    {
+      "bank": 9,
+      "total": 32768,
+      "covered": 0,
+      "code_est": 16896,
+      "data_est": 15872,
+      "pct_total": 0.0,
+      "pct_code": 0.0,
+      "n_targets": 106,
+      "n_lifts": 0
+    },
+    {
+      "bank": 10,
+      "total": 32768,
+      "covered": 0,
+      "code_est": 15616,
+      "data_est": 17152,
+      "pct_total": 0.0,
+      "pct_code": 0.0,
+      "n_targets": 96,
+      "n_lifts": 0
+    },
+    {
+      "bank": 11,
+      "total": 32768,
+      "covered": 0,
+      "code_est": 15360,
+      "data_est": 17408,
+      "pct_total": 0.0,
+      "pct_code": 0.0,
+      "n_targets": 61,
+      "n_lifts": 0
+    },
+    {
+      "bank": 12,
+      "total": 32768,
+      "covered": 412,
+      "code_est": 4352,
+      "data_est": 28416,
+      "pct_total": 1.25732421875,
+      "pct_code": 9.466911764705882,
+      "n_targets": 6,
+      "n_lifts": 2
+    },
+    {
+      "bank": 13,
+      "total": 32768,
+      "covered": 0,
+      "code_est": 9472,
+      "data_est": 23296,
+      "pct_total": 0.0,
+      "pct_code": 0.0,
+      "n_targets": 4,
+      "n_lifts": 0
+    },
+    {
+      "bank": 14,
+      "total": 32768,
+      "covered": 0,
+      "code_est": 2816,
+      "data_est": 29952,
+      "pct_total": 0.0,
+      "pct_code": 0.0,
+      "n_targets": 4,
+      "n_lifts": 0
+    },
+    {
+      "bank": 15,
+      "total": 32768,
+      "covered": 0,
+      "code_est": 5632,
+      "data_est": 27136,
+      "pct_total": 0.0,
+      "pct_code": 0.0,
+      "n_targets": 12,
+      "n_lifts": 0
+    },
+    {
+      "bank": 16,
+      "total": 32768,
+      "covered": 0,
+      "code_est": 24320,
+      "data_est": 8448,
+      "pct_total": 0.0,
+      "pct_code": 0.0,
+      "n_targets": 70,
+      "n_lifts": 0
+    },
+    {
+      "bank": 17,
+      "total": 32768,
+      "covered": 0,
+      "code_est": 25088,
+      "data_est": 7680,
+      "pct_total": 0.0,
+      "pct_code": 0.0,
+      "n_targets": 70,
+      "n_lifts": 0
+    },
+    {
+      "bank": 18,
+      "total": 32768,
+      "covered": 0,
+      "code_est": 26624,
+      "data_est": 6144,
+      "pct_total": 0.0,
+      "pct_code": 0.0,
+      "n_targets": 65,
+      "n_lifts": 0
+    },
+    {
+      "bank": 19,
+      "total": 32768,
+      "covered": 0,
+      "code_est": 23552,
+      "data_est": 9216,
+      "pct_total": 0.0,
+      "pct_code": 0.0,
+      "n_targets": 61,
+      "n_lifts": 0
+    },
+    {
+      "bank": 20,
+      "total": 32768,
+      "covered": 0,
+      "code_est": 24576,
+      "data_est": 8192,
+      "pct_total": 0.0,
+      "pct_code": 0.0,
+      "n_targets": 77,
+      "n_lifts": 0
+    },
+    {
+      "bank": 21,
+      "total": 32768,
+      "covered": 0,
+      "code_est": 26624,
+      "data_est": 6144,
+      "pct_total": 0.0,
+      "pct_code": 0.0,
+      "n_targets": 69,
+      "n_lifts": 0
+    },
+    {
+      "bank": 22,
+      "total": 32768,
+      "covered": 0,
+      "code_est": 23808,
+      "data_est": 8960,
+      "pct_total": 0.0,
+      "pct_code": 0.0,
+      "n_targets": 68,
+      "n_lifts": 0
+    },
+    {
+      "bank": 23,
+      "total": 32768,
+      "covered": 0,
+      "code_est": 24576,
+      "data_est": 8192,
+      "pct_total": 0.0,
+      "pct_code": 0.0,
+      "n_targets": 70,
+      "n_lifts": 0
+    },
+    {
+      "bank": 24,
+      "total": 32768,
+      "covered": 0,
+      "code_est": 24576,
+      "data_est": 8192,
+      "pct_total": 0.0,
+      "pct_code": 0.0,
+      "n_targets": 70,
+      "n_lifts": 0
+    },
+    {
+      "bank": 25,
+      "total": 32768,
+      "covered": 0,
+      "code_est": 25088,
+      "data_est": 7680,
+      "pct_total": 0.0,
+      "pct_code": 0.0,
+      "n_targets": 60,
+      "n_lifts": 0
+    },
+    {
+      "bank": 26,
+      "total": 32768,
+      "covered": 0,
+      "code_est": 20480,
+      "data_est": 12288,
+      "pct_total": 0.0,
+      "pct_code": 0.0,
+      "n_targets": 56,
+      "n_lifts": 0
+    },
+    {
+      "bank": 27,
+      "total": 32768,
+      "covered": 0,
+      "code_est": 22784,
+      "data_est": 9984,
+      "pct_total": 0.0,
+      "pct_code": 0.0,
+      "n_targets": 64,
+      "n_lifts": 0
+    },
+    {
+      "bank": 28,
+      "total": 32768,
+      "covered": 0,
+      "code_est": 26624,
+      "data_est": 6144,
+      "pct_total": 0.0,
+      "pct_code": 0.0,
+      "n_targets": 68,
+      "n_lifts": 0
+    },
+    {
+      "bank": 29,
+      "total": 32768,
+      "covered": 0,
+      "code_est": 28928,
+      "data_est": 3840,
+      "pct_total": 0.0,
+      "pct_code": 0.0,
+      "n_targets": 61,
+      "n_lifts": 0
+    },
+    {
+      "bank": 30,
+      "total": 32768,
+      "covered": 0,
+      "code_est": 23040,
+      "data_est": 9728,
+      "pct_total": 0.0,
+      "pct_code": 0.0,
+      "n_targets": 29,
+      "n_lifts": 0
+    },
+    {
+      "bank": 31,
+      "total": 32768,
+      "covered": 0,
+      "code_est": 16384,
+      "data_est": 16384,
+      "pct_total": 0.0,
+      "pct_code": 0.0,
+      "n_targets": 23,
+      "n_lifts": 0
+    }
+  ],
+  "dead_zones_total": 34,
+  "lifted_but_uncalled": 288,
+  "weak_stubbed_calls": 14,
+  "weak_top10": [
+    [
+      "sub_499C1",
+      89
+    ],
+    [
+      "sub_8976",
+      25
+    ],
+    [
+      "sub_896D",
+      20
+    ],
+    [
+      "sub_85FC",
+      12
+    ],
+    [
+      "sub_BACA",
+      10
+    ],
+    [
+      "sub_BB38",
+      10
+    ],
+    [
+      "sub_BA9E",
+      9
+    ],
+    [
+      "sub_8616_fade",
+      6
+    ],
+    [
+      "sub_897D",
+      4
+    ],
+    [
+      "sub_BAD3",
+      3
+    ]
+  ],
+  "unlifted_targets": 2310,
+  "unlifted_targets_top10": [
+    [
+      "04:DB9E",
+      145,
+      154526
+    ],
+    [
+      "02:F3BD",
+      144,
+      95165
+    ],
+    [
+      "02:F5A8",
+      140,
+      95656
+    ],
+    [
+      "02:F59F",
+      97,
+      95647
+    ],
+    [
+      "04:DB52",
+      65,
+      154450
+    ],
+    [
+      "04:DCD5",
+      36,
+      154837
+    ],
+    [
+      "02:C423",
+      23,
+      82979
+    ],
+    [
+      "03:9F6A",
+      21,
+      106346
+    ],
+    [
+      "00:BACA",
+      20,
+      15050
+    ],
+    [
+      "02:F4BF",
+      19,
+      95423
+    ]
+  ],
+  "missing_genuine": 129,
+  "stub_density_top": [
+    [
+      "lifted_helpers_4.c",
+      95,
+      131,
+      72.51908396946565
+    ],
+    [
+      "lifted_helpers_6.c",
+      55,
+      109,
+      50.45871559633027
+    ],
+    [
+      "simant.c",
+      23,
+      62,
+      37.096774193548384
+    ],
+    [
+      "ui_menus.c",
+      17,
+      31,
+      54.83870967741935
+    ],
+    [
+      "lifted_helpers_5.c",
+      10,
+      34,
+      29.41176470588235
+    ],
+    [
+      "lifted_helpers_3.c",
+      5,
+      30,
+      16.666666666666668
+    ],
+    [
+      "stubs_test_extras.c",
+      4,
+      4,
+      100.0
+    ],
+    [
+      "vsync.c",
+      4,
+      4,
+      100.0
+    ],
+    [
+      "gaps.c",
+      2,
+      18,
+      11.11111111111111
+    ],
+    [
+      "lifted_helpers_1.c",
+      2,
+      25,
+      8.0
+    ]
+  ]
+}

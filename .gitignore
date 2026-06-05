@@ -1,0 +1,26 @@
+# ROM (copyrighted)
+*.sfc
+*.smc
+*.rom
+*.nes
+
+# Manual / scanned docs (copyrighted)
+*.pdf
+
+# Build artifacts
+*.o
+*.a
+*.exe
+simant_decomp
+test_runner
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor / OS
+.DS_Store
+*.swp
+.vscode/
+.idea/

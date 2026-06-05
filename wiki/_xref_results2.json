@@ -1,0 +1,4140 @@
+{
+ "refs": [
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 85,
+   "ref": "states_late.c:524",
+   "file": "states_late.c",
+   "line": 524,
+   "endline": 524,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": "state_3C_credit_card_with_apu_B6E9@503",
+   "cands": []
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 85,
+   "ref": "states_gameplay.c:473",
+   "file": "states_gameplay.c",
+   "line": 473,
+   "endline": 473,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": "state_15_bug_cutin_caption_B4DA@462",
+   "cands": []
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 85,
+   "ref": "gap_fillers.c:294",
+   "file": "gap_fillers.c",
+   "line": 294,
+   "endline": 294,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": "save_checksum_compute@218",
+   "cands": []
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 85,
+   "ref": "ui_menus.c:271",
+   "file": "ui_menus.c",
+   "line": 271,
+   "endline": 271,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": null,
+   "cands": []
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 85,
+   "ref": "mouse.c:41-116",
+   "file": "mouse.c",
+   "line": 41,
+   "endline": 116,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": null,
+   "cands": []
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 87,
+   "ref": "save_options.c:753-860",
+   "file": "save_options.c",
+   "line": 753,
+   "endline": 860,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": "erase_scenario_slot_00_A986@738",
+   "cands": []
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 87,
+   "ref": "misc_helpers.c:17-18",
+   "file": "misc_helpers.c",
+   "line": 17,
+   "endline": 18,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": null,
+   "cands": []
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 87,
+   "ref": "states_late.c:86-89",
+   "file": "states_late.c",
+   "line": 86,
+   "endline": 89,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": null,
+   "cands": []
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 89,
+   "ref": "simant.c:458",
+   "file": "simant.c",
+   "line": 458,
+   "endline": 458,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": "main_9340@411",
+   "cands": [
+    "spider_predation_tick_C"
+   ]
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 89,
+   "ref": "combat.c:1051",
+   "file": "combat.c",
+   "line": 1051,
+   "endline": 1051,
+   "status": "VALID",
+   "match": "spider_predation_tick_C0FD_excerpt",
+   "fn": "yellow_ant_attack_red_simulate@934",
+   "cands": [
+    "spider_predation_tick_C0FD_excerpt"
+   ]
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 91,
+   "ref": "entities_d.c:94",
+   "file": "entities_d.c",
+   "line": 94,
+   "endline": 94,
+   "status": "VALID",
+   "match": "CURSOR_CLICK_COUNT",
+   "fn": null,
+   "cands": [
+    "spider_predation_tick_C0FD_excerpt",
+    "CURSOR_CLICK_COUNT"
+   ]
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 92,
+   "ref": "lifted_helpers_3.c:115-126",
+   "file": "lifted_helpers_3.c",
+   "line": 115,
+   "endline": 126,
+   "status": "WRONG_LINE",
+   "match": null,
+   "fn": "lifted_helpers_3_FOUND_HERE@2",
+   "cands": [
+    "CURSOR_CLICK_COUNT",
+    "lifted_helpers_3"
+   ]
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 93,
+   "ref": "gaps.c:403",
+   "file": "gaps.c",
+   "line": 403,
+   "endline": 403,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": "scenario_reset_world_038855@394",
+   "cands": [
+    "CURSOR_CLICK_COUNT",
+    "lifted_helpers_3"
+   ]
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 93,
+   "ref": "entities_e.c:134",
+   "file": "entities_e.c",
+   "line": 134,
+   "endline": 134,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": null,
+   "cands": [
+    "CURSOR_CLICK_COUNT",
+    "lifted_helpers_3"
+   ]
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 93,
+   "ref": "render_helpers.c:22",
+   "file": "render_helpers.c",
+   "line": 22,
+   "endline": 22,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": null,
+   "cands": [
+    "lifted_helpers_3"
+   ]
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 93,
+   "ref": "save_options.c:103",
+   "file": "save_options.c",
+   "line": 103,
+   "endline": 103,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": null,
+   "cands": [
+    "lifted_helpers_3"
+   ]
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 93,
+   "ref": "states_gameplay.c:520",
+   "file": "states_gameplay.c",
+   "line": 520,
+   "endline": 520,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": "state_16_title_input_93F3@477",
+   "cands": [
+    "lifted_helpers_3"
+   ]
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 93,
+   "ref": "ui_menus.c:126",
+   "file": "ui_menus.c",
+   "line": 126,
+   "endline": 126,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": null,
+   "cands": [
+    "lifted_helpers_3"
+   ]
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 94,
+   "ref": "entities_b.c:111-113",
+   "file": "entities_b.c",
+   "line": 111,
+   "endline": 113,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": null,
+   "cands": [
+    "entity_class_CBB8"
+   ]
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 94,
+   "ref": "simulation.c:1091",
+   "file": "simulation.c",
+   "line": 1091,
+   "endline": 1091,
+   "status": "VALID",
+   "match": "entity_class_CBB8",
+   "fn": "new_game_world_init_038507@970",
+   "cands": [
+    "entity_class_CBB8",
+    "lifted_helpers_3"
+   ]
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 95,
+   "ref": "lifted_helpers_3.c:10-147",
+   "file": "lifted_helpers_3.c",
+   "line": 10,
+   "endline": 147,
+   "status": "VALID",
+   "match": "lifted_helpers_3",
+   "fn": null,
+   "cands": [
+    "entity_class_CBB8",
+    "lifted_helpers_3"
+   ]
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 95,
+   "ref": "render_helpers.c:471-548",
+   "file": "render_helpers.c",
+   "line": 471,
+   "endline": 548,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": "gradient_emit_C7A7@432",
+   "cands": [
+    "entity_class_CBB8",
+    "lifted_helpers_3"
+   ]
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 97,
+   "ref": "combat.c:132",
+   "file": "combat.c",
+   "line": 132,
+   "endline": 132,
+   "status": "VALID",
+   "match": "corpse_spawn_C3E3",
+   "fn": null,
+   "cands": [
+    "ifted_helpers_3",
+    "corpse_spawn_C3E3",
+    "fight_resolver_96D"
+   ]
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 97,
+   "ref": "combat.c:581",
+   "file": "combat.c",
+   "line": 581,
+   "endline": 581,
+   "status": "WRONG_LINE",
+   "match": null,
+   "fn": "fight_resolver_96D7_FOUND_HERE@52",
+   "cands": [
+    "fight_resolver_96D7",
+    "corpse_spawn_C3E3"
+   ]
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 100,
+   "ref": "combat.c:907-920",
+   "file": "combat.c",
+   "line": 907,
+   "endline": 920,
+   "status": "VALID",
+   "match": "fight_resolver_96D7",
+   "fn": "kill_dispatcher_D334@775",
+   "cands": [
+    "fight_resolver_96D7",
+    "mass_exodus_cap_and_s"
+   ]
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 101,
+   "ref": "simulation.c:342",
+   "file": "simulation.c",
+   "line": 342,
+   "endline": 342,
+   "status": "WRONG_LINE",
+   "match": null,
+   "fn": "mass_exodus_cap_and_split_F050_FOUND_HERE@791",
+   "cands": [
+    "mass_exodus_cap_and_split_F050",
+    "test_mass_exodus_cap_250"
+   ]
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 101,
+   "ref": "tests.c:482-509",
+   "file": "tests.c",
+   "line": 482,
+   "endline": 509,
+   "status": "VALID",
+   "match": "mass_exodus_cap_and_split_F050",
+   "fn": "test_rain_wash@444",
+   "cands": [
+    "mass_exodus_cap_and_split_F050",
+    "test_mass_exodus_cap_250"
+   ]
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 103,
+   "ref": "simulation.c:293",
+   "file": "simulation.c",
+   "line": 293,
+   "endline": 293,
+   "status": "WRONG_LINE",
+   "match": null,
+   "fn": "us_cap_and_split_F050_FOUND_HERE@791",
+   "cands": [
+    "us_cap_and_split_F050",
+    "test_mass_exodus_cap_250"
+   ]
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 104,
+   "ref": "states_gameplay.c:1151-1173",
+   "file": "states_gameplay.c",
+   "line": 1151,
+   "endline": 1173,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": "state_view_rnest_overview_run_9B7D@1108",
+   "cands": []
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 105,
+   "ref": "combat.c:1179",
+   "file": "combat.c",
+   "line": 1179,
+   "endline": 1179,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": "spider_predation_tick_C0FD_excerpt@1073",
+   "cands": []
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 106,
+   "ref": "combat.c:217-218",
+   "file": "combat.c",
+   "line": 217,
+   "endline": 218,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": null,
+   "cands": []
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 106,
+   "ref": "simulation.c:241-242",
+   "file": "simulation.c",
+   "line": 241,
+   "endline": 242,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": "area_offset_F5B2@124",
+   "cands": []
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 107,
+   "ref": "ui_menus.c:12",
+   "file": "ui_menus.c",
+   "line": 12,
+   "endline": 12,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": null,
+   "cands": [
+    "asset_data_1",
+    "asset_data_6"
+   ]
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 111,
+   "ref": "assets.c:9",
+   "file": "assets.c",
+   "line": 9,
+   "endline": 9,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": null,
+   "cands": [
+    "asset_data_1",
+    "asset_data_6",
+    "lifted_helpers_3"
+   ]
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 112,
+   "ref": "simulation.c:293",
+   "file": "simulation.c",
+   "line": 293,
+   "endline": 293,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": "area_offset_F5B2@124",
+   "cands": [
+    "lifted_helpers_3"
+   ]
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 119,
+   "ref": "scenarios.c:381",
+   "file": "scenarios.c",
+   "line": 381,
+   "endline": 381,
+   "status": "VALID",
+   "match": "scenario_porch_view3",
+   "fn": null,
+   "cands": [
+    "scenario_porch_view3"
+   ]
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 135,
+   "ref": "scent.c:15-83",
+   "file": "scent.c",
+   "line": 15,
+   "endline": 83,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": null,
+   "cands": [
+    "fight_resolver_96D7"
+   ]
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 137,
+   "ref": "combat.c:39-48",
+   "file": "combat.c",
+   "line": 39,
+   "endline": 48,
+   "status": "VALID",
+   "match": "fight_resolver_96D7",
+   "fn": null,
+   "cands": [
+    "fight_resolver_96D7"
+   ]
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 139,
+   "ref": "combat.c:144-345",
+   "file": "combat.c",
+   "line": 144,
+   "endline": 345,
+   "status": "VALID",
+   "match": "fight_resolver_96D7",
+   "fn": null,
+   "cands": [
+    "fight_resolver_96D7",
+    "spider_predation_tick_C0FD"
+   ]
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 142,
+   "ref": "combat.c:941-1107",
+   "file": "combat.c",
+   "line": 941,
+   "endline": 1107,
+   "status": "VALID",
+   "match": "fight_resolver_96D7",
+   "fn": "yellow_ant_attack_red_simulate@934",
+   "cands": [
+    "fight_resolver_96D7",
+    "spider_predation_tick_C0FD",
+    "lifted_helpers_3"
+   ]
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 144,
+   "ref": "render_helpers.c:471-548",
+   "file": "render_helpers.c",
+   "line": 471,
+   "endline": 548,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": "gradient_emit_C7A7@432",
+   "cands": [
+    "fight_resolver_96D7",
+    "spider_predation_tick_C0FD",
+    "lifted_helpers_3"
+   ]
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 146,
+   "ref": "render_helpers.c:511-524",
+   "file": "render_helpers.c",
+   "line": 511,
+   "endline": 524,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": "sub_CEAA@492",
+   "cands": [
+    "fight_resolver_96D7",
+    "spider_predation_tick_C0FD",
+    "lifted_helpers_3"
+   ]
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 149,
+   "ref": "combat.c:217-218",
+   "file": "combat.c",
+   "line": 217,
+   "endline": 218,
+   "status": "WRONG_LINE",
+   "match": null,
+   "fn": "spider_predation_tick_C0FD_FOUND_HERE@1073",
+   "cands": [
+    "spider_predation_tick_C0FD",
+    "lifted_helpers_3",
+    "GS_MARRIAGE_FLIGHT"
+   ]
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 151,
+   "ref": "simant.c:168-1192",
+   "file": "simant.c",
+   "line": 168,
+   "endline": 1192,
+   "status": "VALID",
+   "match": "GS_MARRIAGE_FLIGHT",
+   "fn": null,
+   "cands": [
+    "lifted_helpers_3",
+    "GS_MARRIAGE_FLIGHT"
+   ]
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 151,
+   "ref": "states_menu.c:715-731",
+   "file": "states_menu.c",
+   "line": 715,
+   "endline": 731,
+   "status": "VALID",
+   "match": "GS_MARRIAGE_FLIGHT",
+   "fn": "gs_sound_B1BF@697",
+   "cands": [
+    "lifted_helpers_3",
+    "GS_MARRIAGE_FLIGHT"
+   ]
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 153,
+   "ref": "scenarios.c:441-448",
+   "file": "scenarios.c",
+   "line": 441,
+   "endline": 448,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": null,
+   "cands": [
+    "lifted_helpers_3",
+    "GS_MARRIAGE_FLIGHT"
+   ]
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 156,
+   "ref": "mouse.c:41-116",
+   "file": "mouse.c",
+   "line": 41,
+   "endline": 116,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": null,
+   "cands": [
+    "GS_MARRIAGE_FLIGHT"
+   ]
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 157,
+   "ref": "gap_fillers.c:1000",
+   "file": "gap_fillers.c",
+   "line": 1000,
+   "endline": 1000,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": "state14_helper_vmem_block_init_B4ED_body@958",
+   "cands": [
+    "GS_MARRIAGE_FLIGHT"
+   ]
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 161,
+   "ref": "text_content.c:21",
+   "file": "text_content.c",
+   "line": 21,
+   "endline": 21,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": null,
+   "cands": [
+    "asset_data_1",
+    "asset_data_6"
+   ]
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 189,
+   "ref": "states_gameplay.c:1173",
+   "file": "states_gameplay.c",
+   "line": 1173,
+   "endline": 1173,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": "state_view_surface_closeup_A7DD@1157",
+   "cands": []
+  },
+  {
+   "page": "00-TCRF-FINDINGS.md",
+   "wline": 202,
+   "ref": "states_late.c:524",
+   "file": "states_late.c",
+   "line": 524,
+   "endline": 524,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": "state_3C_credit_card_with_apu_B6E9@503",
+   "cands": []
+  },
+  {
+   "page": "01-architecture.md",
+   "wline": 36,
+   "ref": "simant.c:380",
+   "file": "simant.c",
+   "line": 380,
+   "endline": 380,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": "reset@380",
+   "cands": []
+  },
+  {
+   "page": "01-architecture.md",
+   "wline": 54,
+   "ref": "simant.c:407",
+   "file": "simant.c",
+   "line": 407,
+   "endline": 407,
+   "status": "VALID",
+   "match": "main_9340",
+   "fn": "game_state_dispatch_935C@399",
+   "cands": [
+    "main_9340",
+    "spawn_task"
+   ]
+  },
+  {
+   "page": "01-architecture.md",
+   "wline": 81,
+   "ref": "simant.c:358",
+   "file": "simant.c",
+   "line": 358,
+   "endline": 358,
+   "status": "VALID",
+   "match": "boot_init_BB8D",
+   "fn": "spawn_task@358",
+   "cands": [
+    "CLI",
+    "boot_init_BB8D",
+    "enable_nmi_896D",
+    "spawn_task",
+    "RTI"
+   ]
+  },
+  {
+   "page": "01-architecture.md",
+   "wline": 124,
+   "ref": "simant.c:449",
+   "file": "simant.c",
+   "line": 449,
+   "endline": 449,
+   "status": "VALID",
+   "match": "dex_reset_8937",
+   "fn": "main_9340@411",
+   "cands": [
+    "dex_reset_8937",
+    "bg_scroll_push_884A",
+    "shadow_oam_clear_88A5",
+    "entity_step_all_049966",
+    "pause_toggle_on_start_8101",
+    "scheduler_switch_and_rti"
+   ]
+  },
+  {
+   "page": "01-architecture.md",
+   "wline": 131,
+   "ref": "simant.c:668",
+   "file": "simant.c",
+   "line": 668,
+   "endline": 668,
+   "status": "VALID",
+   "match": "entity_step_all_049966",
+   "fn": "entity_table_compact_04999A@660",
+   "cands": [
+    "vram_stream_step_814F",
+    "entity_step_all_049966",
+    "scheduler_switch_and_rti"
+   ]
+  },
+  {
+   "page": "01-architecture.md",
+   "wline": 179,
+   "ref": "simant.c:358",
+   "file": "simant.c",
+   "line": 358,
+   "endline": 358,
+   "status": "VALID",
+   "match": "spawn_task",
+   "fn": "spawn_task@358",
+   "cands": [
+    "spawn_task"
+   ]
+  },
+  {
+   "page": "01-architecture.md",
+   "wline": 209,
+   "ref": "simant.c:179",
+   "file": "simant.c",
+   "line": 179,
+   "endline": 179,
+   "status": "VALID",
+   "match": "GS_FULL_GAME",
+   "fn": null,
+   "cands": [
+    "game_state_dispatch_935C",
+    "GS_FULL_GAME",
+    "GS_SCENARIO_GAME",
+    "GS_SAVED_GAME",
+    "GS_ANT_INFORMATION",
+    "GS_MARRIAGE_FLIGH"
+   ]
+  },
+  {
+   "page": "02-simulation-tick.md",
+   "wline": 31,
+   "ref": "simulation.c:216",
+   "file": "simulation.c",
+   "line": 216,
+   "endline": 216,
+   "status": "VALID",
+   "match": "SIM_COUNTER",
+   "fn": "area_offset_F5B2@124",
+   "cands": [
+    "SIM_COUNTER"
+   ]
+  },
+  {
+   "page": "02-simulation-tick.md",
+   "wline": 54,
+   "ref": "simulation.c:498",
+   "file": "simulation.c",
+   "line": 498,
+   "endline": 498,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": "sim_main_loop_028024@458",
+   "cands": []
+  },
+  {
+   "page": "02-simulation-tick.md",
+   "wline": 93,
+   "ref": "simulation.c:539",
+   "file": "simulation.c",
+   "line": 539,
+   "endline": 539,
+   "status": "VALID",
+   "match": "per_area_food_tick_E4DB",
+   "fn": "sim_tick@502",
+   "cands": [
+    "per_area_food_tick_E4DB",
+    "pop_aggregator_956E",
+    "fight_resolver_96D7",
+    "starvation_tick_D89B",
+    "ant_motion_update_9A86",
+    "per_area_visit_tick_9D96"
+   ]
+  },
+  {
+   "page": "02-simulation-tick.md",
+   "wline": 112,
+   "ref": "simulation.c:546",
+   "file": "simulation.c",
+   "line": 546,
+   "endline": 546,
+   "status": "VALID",
+   "match": "breeder_movement_C6A9",
+   "fn": "sim_tick@502",
+   "cands": [
+    "breeder_movement_C6A9",
+    "danger_event_tick_DD5F",
+    "ant_lion_tick_C0FD",
+    "colony_health_update_BC2E",
+    "ant_motion_update_9A86",
+    "render_post_8000"
+   ]
+  },
+  {
+   "page": "02-simulation-tick.md",
+   "wline": 115,
+   "ref": "gaps.c:120",
+   "file": "gaps.c",
+   "line": 120,
+   "endline": 120,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": "rng_byte_DCD5@102",
+   "cands": [
+    "ant_lion_tick_C0FD",
+    "colony_health_update_BC2E",
+    "ant_motion_update_9A86",
+    "round_robin_slow_ABEF",
+    "render_post_8000"
+   ]
+  },
+  {
+   "page": "02-simulation-tick.md",
+   "wline": 119,
+   "ref": "simulation.c:668",
+   "file": "simulation.c",
+   "line": 668,
+   "endline": 668,
+   "status": "VALID",
+   "match": "colony_health_update_BC2E",
+   "fn": "history_snapshot_ACC9@617",
+   "cands": [
+    "colony_health_update_BC2E",
+    "ant_motion_update_9A86",
+    "round_robin_slow_ABEF",
+    "render_post_8000",
+    "slow_subsys_80BD",
+    "pop_summary_923B"
+   ]
+  },
+  {
+   "page": "02-simulation-tick.md",
+   "wline": 158,
+   "ref": "simulation.c:613",
+   "file": "simulation.c",
+   "line": 613,
+   "endline": 613,
+   "status": "VALID",
+   "match": "SIM_COUNTER",
+   "fn": "sim_tick@502",
+   "cands": [
+    "SIM_COUNTER",
+    "history_snapshot_ACC9",
+    "slow_subsys_81A1",
+    "slow_subsys_92C2",
+    "slow_subsys_9333",
+    "slow_subsys_936A"
+   ]
+  },
+  {
+   "page": "02-simulation-tick.md",
+   "wline": 252,
+   "ref": "simulation.c:754",
+   "file": "simulation.c",
+   "line": 754,
+   "endline": 754,
+   "status": "VALID",
+   "match": "marriage_flight_trigger_9E35",
+   "fn": "history_graph_snapshot_F927@716",
+   "cands": [
+    "marriage_flight_trigger_9E35",
+    "sim_main_loop_028024",
+    "round_robin_slow_ABEF"
+   ]
+  },
+  {
+   "page": "02-simulation-tick.md",
+   "wline": 258,
+   "ref": "simulation.c:785",
+   "file": "simulation.c",
+   "line": 785,
+   "endline": 785,
+   "status": "VALID",
+   "match": "marriage_flight_trigger_9E35",
+   "fn": "marriage_flight_trigger_9E35@760",
+   "cands": [
+    "marriage_flight_trigger_9E35",
+    "mass_exodus_cap_and_split_F050",
+    "pop_aggregator_956E",
+    "round_robin_slow_ABEF"
+   ]
+  },
+  {
+   "page": "03-rng.md",
+   "wline": 10,
+   "ref": "gaps.c:100",
+   "file": "gaps.c",
+   "line": 100,
+   "endline": 100,
+   "status": "VALID",
+   "match": "rng_byte_DCD5",
+   "fn": "SW16@37",
+   "cands": [
+    "rng_byte_DCD5",
+    "RNG_TEST_RESULTS"
+   ]
+  },
+  {
+   "page": "03-rng.md",
+   "wline": 48,
+   "ref": "gaps.c:103",
+   "file": "gaps.c",
+   "line": 103,
+   "endline": 103,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": "rng_byte_DCD5@102",
+   "cands": []
+  },
+  {
+   "page": "03-rng.md",
+   "wline": 86,
+   "ref": "gaps.c:111",
+   "file": "gaps.c",
+   "line": 111,
+   "endline": 111,
+   "status": "VALID",
+   "match": "new_bit_5",
+   "fn": "rng_byte_DCD5@102",
+   "cands": [
+    "new_bit_5",
+    "old_bit_4"
+   ]
+  },
+  {
+   "page": "04-entity-system.md",
+   "wline": 38,
+   "ref": "simant.c:271",
+   "file": "simant.c",
+   "line": 271,
+   "endline": 271,
+   "status": "VALID",
+   "match": "scratch",
+   "fn": null,
+   "cands": [
+    "flag",
+    "scratch",
+    "init_word",
+    "init_attr",
+    "__attribute__"
+   ]
+  },
+  {
+   "page": "05-yellow-ant.md",
+   "wline": 22,
+   "ref": "entities_a.c:368",
+   "file": "entities_a.c",
+   "line": 368,
+   "endline": 368,
+   "status": "VALID",
+   "match": "cursor_handler_type1_9D9D",
+   "fn": "cursor_handler_type1_9D9D@368",
+   "cands": [
+    "cursor_handler_type1_9D9D",
+    "cursor_handler_type2_9B9B"
+   ]
+  },
+  {
+   "page": "05-yellow-ant.md",
+   "wline": 23,
+   "ref": "entities_a.c:452",
+   "file": "entities_a.c",
+   "line": 452,
+   "endline": 452,
+   "status": "VALID",
+   "match": "cursor_handler_type2_9B9B",
+   "fn": "cursor_handler_type2_9B9B@452",
+   "cands": [
+    "cursor_handler_type1_9D9D",
+    "cursor_handler_type2_9B9B",
+    "type14_dispatch_A112"
+   ]
+  },
+  {
+   "page": "05-yellow-ant.md",
+   "wline": 24,
+   "ref": "entities_b.c:762",
+   "file": "entities_b.c",
+   "line": 762,
+   "endline": 762,
+   "status": "VALID",
+   "match": "type14_dispatch_A112",
+   "fn": "type14_state4_A1CC_attack@751",
+   "cands": [
+    "cursor_handler_type1_9D9D",
+    "cursor_handler_type2_9B9B",
+    "type14_dispatch_A112",
+    "queen_handler_A533"
+   ]
+  },
+  {
+   "page": "05-yellow-ant.md",
+   "wline": 24,
+   "ref": "entities_c.c:550",
+   "file": "entities_c.c",
+   "line": 550,
+   "endline": 550,
+   "status": "VALID",
+   "match": "queen_handler_A533",
+   "fn": "queen_state5_stun_A682@535",
+   "cands": [
+    "cursor_handler_type1_9D9D",
+    "cursor_handler_type2_9B9B",
+    "type14_dispatch_A112",
+    "queen_handler_A533"
+   ]
+  },
+  {
+   "page": "05-yellow-ant.md",
+   "wline": 33,
+   "ref": "gaps.c:202",
+   "file": "gaps.c",
+   "line": 202,
+   "endline": 202,
+   "status": "VALID",
+   "match": "YELLOW_TILE_X",
+   "fn": "rng_byte_DCD5@102",
+   "cands": [
+    "YELLOW_TILE_X",
+    "YELLOW_TILE_Y"
+   ]
+  },
+  {
+   "page": "06-pathfinding.md",
+   "wline": 55,
+   "ref": "player_actions_full.c:79",
+   "file": "player_actions_full.c",
+   "line": 79,
+   "endline": 79,
+   "status": "VALID",
+   "match": "player_actions_full",
+   "fn": null,
+   "cands": [
+    "player_actions_full",
+    "scent_dir_dx_028065",
+    "scent_dir_dy_028077"
+   ]
+  },
+  {
+   "page": "06-pathfinding.md",
+   "wline": 161,
+   "ref": "combat.c:525",
+   "file": "combat.c",
+   "line": 525,
+   "endline": 525,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": "fight_resolver_96D7@453",
+   "cands": []
+  },
+  {
+   "page": "06-pathfinding.md",
+   "wline": 163,
+   "ref": "combat.c:604",
+   "file": "combat.c",
+   "line": 604,
+   "endline": 604,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": "fight_resolver_96D7@453",
+   "cands": []
+  },
+  {
+   "page": "06-pathfinding.md",
+   "wline": 182,
+   "ref": "entities_b.c:671",
+   "file": "entities_b.c",
+   "line": 671,
+   "endline": 671,
+   "status": "VALID",
+   "match": "type14_state1_A13E_walking",
+   "fn": "type14_state0_A128_spawn@659",
+   "cands": [
+    "type14_state1_A13E_walking",
+    "sub_D747_physics_step"
+   ]
+  },
+  {
+   "page": "07-scent-system.md",
+   "wline": 12,
+   "ref": "scent.c:232",
+   "file": "scent.c",
+   "line": 232,
+   "endline": 232,
+   "status": "VALID",
+   "match": "scent_place_max_internal",
+   "fn": "scent_index_F5A8@212",
+   "cands": [
+    "scent_place_max_internal",
+    "scent_decay_nest_black_03_931B"
+   ]
+  },
+  {
+   "page": "07-scent-system.md",
+   "wline": 13,
+   "ref": "scent.c:309",
+   "file": "scent.c",
+   "line": 309,
+   "endline": 309,
+   "status": "VALID",
+   "match": "scent_place_max_internal",
+   "fn": "scent_consume_trail_03_9419@293",
+   "cands": [
+    "scent_place_max_internal",
+    "scent_decay_nest_black_03_931B",
+    "scent_pick_gradient_dir",
+    "scent_follow_gradient_02A710"
+   ]
+  },
+  {
+   "page": "07-scent-system.md",
+   "wline": 14,
+   "ref": "scent.c:392",
+   "file": "scent.c",
+   "line": 392,
+   "endline": 392,
+   "status": "VALID",
+   "match": "scent_decay_nest_black_03_931B",
+   "fn": "scent_decay_trail_red_03_936A@341",
+   "cands": [
+    "scent_place_max_internal",
+    "scent_decay_nest_black_03_931B",
+    "scent_pick_gradient_dir",
+    "scent_follow_gradient_02A710",
+    "scent_rain_wash_cell_02_96A0"
+   ]
+  },
+  {
+   "page": "07-scent-system.md",
+   "wline": 14,
+   "ref": "scent.c:429",
+   "file": "scent.c",
+   "line": 429,
+   "endline": 429,
+   "status": "VALID",
+   "match": "scent_pick_gradient_dir",
+   "fn": "scent_decay_trail_red_03_936A@341",
+   "cands": [
+    "scent_place_max_internal",
+    "scent_decay_nest_black_03_931B",
+    "scent_pick_gradient_dir",
+    "scent_follow_gradient_02A710",
+    "scent_rain_wash_cell_02_96A0"
+   ]
+  },
+  {
+   "page": "07-scent-system.md",
+   "wline": 15,
+   "ref": "scent.c:471",
+   "file": "scent.c",
+   "line": 471,
+   "endline": 471,
+   "status": "VALID",
+   "match": "scent_pick_gradient_dir",
+   "fn": "scent_decay_trail_red_03_936A@341",
+   "cands": [
+    "scent_place_max_internal",
+    "scent_decay_nest_black_03_931B",
+    "scent_pick_gradient_dir",
+    "scent_follow_gradient_02A710",
+    "scent_rain_wash_cell_02_96A0"
+   ]
+  },
+  {
+   "page": "07-scent-system.md",
+   "wline": 34,
+   "ref": "scent.c:156-159",
+   "file": "scent.c",
+   "line": 156,
+   "endline": 159,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": null,
+   "cands": []
+  },
+  {
+   "page": "07-scent-system.md",
+   "wline": 42,
+   "ref": "scent.c:150-153",
+   "file": "scent.c",
+   "line": 150,
+   "endline": 153,
+   "status": "VALID",
+   "match": "SCENT_MAP_W",
+   "fn": null,
+   "cands": [
+    "sub_D747_physics_step",
+    "SCENT_MAP_W",
+    "SCENT_MAP_H",
+    "SCENT_MAP_BYTES",
+    "SCENT_PIXELS_PER_CELL"
+   ]
+  },
+  {
+   "page": "07-scent-system.md",
+   "wline": 53,
+   "ref": "scent.c:201",
+   "file": "scent.c",
+   "line": 201,
+   "endline": 201,
+   "status": "VALID",
+   "match": "SCENT_MAP_W",
+   "fn": null,
+   "cands": [
+    "sub_D747_physics_step",
+    "SCENT_MAP_W",
+    "SCENT_MAP_H",
+    "SCENT_MAP_BYTES",
+    "SCENT_PIXELS_PER_CELL",
+    "scent_index_F5A8"
+   ]
+  },
+  {
+   "page": "07-scent-system.md",
+   "wline": 86,
+   "ref": "scent.c:611",
+   "file": "scent.c",
+   "line": 611,
+   "endline": 611,
+   "status": "VALID",
+   "match": "scent_visualize_tile",
+   "fn": "scent_reset_all_03_85DA@591",
+   "cands": [
+    "LSR",
+    "state_2C_2D_scent_overlay",
+    "scent_visualize_tile"
+   ]
+  },
+  {
+   "page": "07-scent-system.md",
+   "wline": 106,
+   "ref": "scent.c:246",
+   "file": "scent.c",
+   "line": 246,
+   "endline": 246,
+   "status": "VALID",
+   "match": "scent_place_black_nest_03_9389",
+   "fn": "scent_index_F5A8@212",
+   "cands": [
+    "scent_place_black_nest_03_9389",
+    "scent_place_red_nest_03_93AD",
+    "scent_place_black_trail_03_93D1"
+   ]
+  },
+  {
+   "page": "07-scent-system.md",
+   "wline": 107,
+   "ref": "scent.c:249",
+   "file": "scent.c",
+   "line": 249,
+   "endline": 249,
+   "status": "VALID",
+   "match": "scent_place_black_nest_03_9389",
+   "fn": "scent_index_F5A8@212",
+   "cands": [
+    "scent_place_black_nest_03_9389",
+    "scent_place_red_nest_03_93AD",
+    "scent_place_black_trail_03_93D1",
+    "scent_place_red_trail_03_93F5"
+   ]
+  },
+  {
+   "page": "07-scent-system.md",
+   "wline": 108,
+   "ref": "scent.c:252",
+   "file": "scent.c",
+   "line": 252,
+   "endline": 252,
+   "status": "VALID",
+   "match": "scent_place_black_nest_03_9389",
+   "fn": "scent_index_F5A8@212",
+   "cands": [
+    "scent_place_black_nest_03_9389",
+    "scent_place_red_nest_03_93AD",
+    "scent_place_black_trail_03_93D1",
+    "scent_place_red_trail_03_93F5"
+   ]
+  },
+  {
+   "page": "07-scent-system.md",
+   "wline": 109,
+   "ref": "scent.c:255",
+   "file": "scent.c",
+   "line": 255,
+   "endline": 255,
+   "status": "VALID",
+   "match": "scent_place_black_nest_03_9389",
+   "fn": "scent_index_F5A8@212",
+   "cands": [
+    "scent_place_black_nest_03_9389",
+    "scent_place_red_nest_03_93AD",
+    "scent_place_black_trail_03_93D1",
+    "scent_place_red_trail_03_93F5",
+    "scent_place_max_internal"
+   ]
+  },
+  {
+   "page": "07-scent-system.md",
+   "wline": 111,
+   "ref": "scent.c:232",
+   "file": "scent.c",
+   "line": 232,
+   "endline": 232,
+   "status": "VALID",
+   "match": "scent_place_black_nest_03_9389",
+   "fn": "scent_index_F5A8@212",
+   "cands": [
+    "scent_place_black_nest_03_9389",
+    "scent_place_red_nest_03_93AD",
+    "scent_place_black_trail_03_93D1",
+    "scent_place_red_trail_03_93F5",
+    "scent_place_max_internal"
+   ]
+  },
+  {
+   "page": "07-scent-system.md",
+   "wline": 136,
+   "ref": "scent.c:282",
+   "file": "scent.c",
+   "line": 282,
+   "endline": 282,
+   "status": "VALID",
+   "match": "scent_consume_trail_03_9419",
+   "fn": "scent_place_red_trail_03_93F5@266",
+   "cands": [
+    "scent_consume_trail_03_9419",
+    "scent_index_F5A8",
+    "SCENT_RED_TRAI"
+   ]
+  },
+  {
+   "page": "07-scent-system.md",
+   "wline": 168,
+   "ref": "scent.c:309-335",
+   "file": "scent.c",
+   "line": 309,
+   "endline": 335,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": "scent_consume_trail_03_9419@293",
+   "cands": []
+  },
+  {
+   "page": "07-scent-system.md",
+   "wline": 183,
+   "ref": "scent.c:429",
+   "file": "scent.c",
+   "line": 429,
+   "endline": 429,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": "scent_decay_trail_red_03_936A@341",
+   "cands": []
+  },
+  {
+   "page": "07-scent-system.md",
+   "wline": 184,
+   "ref": "scent.c:392",
+   "file": "scent.c",
+   "line": 392,
+   "endline": 392,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": "scent_decay_trail_red_03_936A@341",
+   "cands": []
+  },
+  {
+   "page": "07-scent-system.md",
+   "wline": 196,
+   "ref": "scent.c:359-360",
+   "file": "scent.c",
+   "line": 359,
+   "endline": 360,
+   "status": "VALID",
+   "match": "scent_dir_dx_028065",
+   "fn": "scent_decay_trail_red_03_936A@341",
+   "cands": [
+    "scent_dir_dx_028065",
+    "scent_dir_dy_028077"
+   ]
+  },
+  {
+   "page": "07-scent-system.md",
+   "wline": 210,
+   "ref": "scent.c:369",
+   "file": "scent.c",
+   "line": 369,
+   "endline": 369,
+   "status": "VALID",
+   "match": "scent_dir_dx_028065",
+   "fn": "scent_decay_trail_red_03_936A@341",
+   "cands": [
+    "scent_dir_dx_028065",
+    "scent_dir_dy_028077"
+   ]
+  },
+  {
+   "page": "07-scent-system.md",
+   "wline": 228,
+   "ref": "scent.c:471",
+   "file": "scent.c",
+   "line": 471,
+   "endline": 471,
+   "status": "VALID",
+   "match": "scent_rain_wash_cell_02_96A0",
+   "fn": "scent_decay_trail_red_03_936A@341",
+   "cands": [
+    "scent_rain_wash_cell_02_96A0",
+    "SCENT_BLACK_NEST"
+   ]
+  },
+  {
+   "page": "07-scent-system.md",
+   "wline": 256,
+   "ref": "scent.c:530",
+   "file": "scent.c",
+   "line": 530,
+   "endline": 530,
+   "status": "VALID",
+   "match": "SCENT_RED_NEST",
+   "fn": "scent_rain_wash_all@508",
+   "cands": [
+    "SCENT_RED_NEST",
+    "SCENT_RED_TRAIL"
+   ]
+  },
+  {
+   "page": "07-scent-system.md",
+   "wline": 275,
+   "ref": "scent.c:576",
+   "file": "scent.c",
+   "line": 576,
+   "endline": 576,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": "scent_seed_red_03_92C2@575",
+   "cands": []
+  },
+  {
+   "page": "07-scent-system.md",
+   "wline": 284,
+   "ref": "scent.c:232",
+   "file": "scent.c",
+   "line": 232,
+   "endline": 232,
+   "status": "VALID",
+   "match": "scent_place_max_internal",
+   "fn": "scent_index_F5A8@212",
+   "cands": [
+    "scent_place_max_internal",
+    "scent_decay_nest_03_931B"
+   ]
+  },
+  {
+   "page": "07-scent-system.md",
+   "wline": 289,
+   "ref": "scent.c:309",
+   "file": "scent.c",
+   "line": 309,
+   "endline": 309,
+   "status": "VALID",
+   "match": "scent_place_max_internal",
+   "fn": "scent_consume_trail_03_9419@293",
+   "cands": [
+    "scent_place_max_internal",
+    "scent_decay_nest_03_931B",
+    "scent_decay_trail_03_934B",
+    "scent_pick_gradient_dir"
+   ]
+  },
+  {
+   "page": "07-scent-system.md",
+   "wline": 290,
+   "ref": "scent.c:323",
+   "file": "scent.c",
+   "line": 323,
+   "endline": 323,
+   "status": "VALID",
+   "match": "scent_place_max_internal",
+   "fn": "scent_decay_nest_black_03_931B@320",
+   "cands": [
+    "scent_place_max_internal",
+    "scent_decay_nest_03_931B",
+    "scent_decay_trail_03_934B",
+    "scent_pick_gradient_dir"
+   ]
+  },
+  {
+   "page": "07-scent-system.md",
+   "wline": 295,
+   "ref": "scent.c:392",
+   "file": "scent.c",
+   "line": 392,
+   "endline": 392,
+   "status": "VALID",
+   "match": "scent_pick_gradient_dir",
+   "fn": "scent_decay_trail_red_03_936A@341",
+   "cands": [
+    "scent_place_max_internal",
+    "scent_decay_nest_03_931B",
+    "scent_decay_trail_03_934B",
+    "scent_pick_gradient_dir",
+    "scent_turn_smooth_02AAD8",
+    "scent_rain_wash_cell_02_96A0"
+   ]
+  },
+  {
+   "page": "07-scent-system.md",
+   "wline": 297,
+   "ref": "scent.c:369",
+   "file": "scent.c",
+   "line": 369,
+   "endline": 369,
+   "status": "VALID",
+   "match": "scent_pick_gradient_dir",
+   "fn": "scent_decay_trail_red_03_936A@341",
+   "cands": [
+    "scent_place_max_internal",
+    "scent_decay_nest_03_931B",
+    "scent_decay_trail_03_934B",
+    "scent_pick_gradient_dir",
+    "scent_turn_smooth_02AAD8",
+    "scent_rain_wash_cell_02_96A0"
+   ]
+  },
+  {
+   "page": "07-scent-system.md",
+   "wline": 300,
+   "ref": "scent.c:471",
+   "file": "scent.c",
+   "line": 471,
+   "endline": 471,
+   "status": "VALID",
+   "match": "scent_pick_gradient_dir",
+   "fn": "scent_decay_trail_red_03_936A@341",
+   "cands": [
+    "scent_decay_nest_03_931B",
+    "scent_decay_trail_03_934B",
+    "scent_pick_gradient_dir",
+    "scent_turn_smooth_02AAD8",
+    "scent_rain_wash_cell_02_96A0",
+    "scent_visualize_tile"
+   ]
+  },
+  {
+   "page": "07-scent-system.md",
+   "wline": 303,
+   "ref": "scent.c:611",
+   "file": "scent.c",
+   "line": 611,
+   "endline": 611,
+   "status": "VALID",
+   "match": "scent_pick_gradient_dir",
+   "fn": "scent_reset_all_03_85DA@591",
+   "cands": [
+    "scent_decay_nest_03_931B",
+    "scent_decay_trail_03_934B",
+    "scent_pick_gradient_dir",
+    "scent_turn_smooth_02AAD8",
+    "scent_rain_wash_cell_02_96A0",
+    "scent_visualize_tile"
+   ]
+  },
+  {
+   "page": "07-scent-system.md",
+   "wline": 335,
+   "ref": "scent.c:369",
+   "file": "scent.c",
+   "line": 369,
+   "endline": 369,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": "scent_decay_trail_red_03_936A@341",
+   "cands": []
+  },
+  {
+   "page": "08-combat.md",
+   "wline": 26,
+   "ref": "combat.c:196-210",
+   "file": "combat.c",
+   "line": 196,
+   "endline": 210,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": null,
+   "cands": []
+  },
+  {
+   "page": "08-combat.md",
+   "wline": 42,
+   "ref": "combat.c:227-233",
+   "file": "combat.c",
+   "line": 227,
+   "endline": 233,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": null,
+   "cands": []
+  },
+  {
+   "page": "08-combat.md",
+   "wline": 60,
+   "ref": "combat.c:307",
+   "file": "combat.c",
+   "line": 307,
+   "endline": 307,
+   "status": "VALID",
+   "match": "COMBAT_COUNT",
+   "fn": null,
+   "cands": [
+    "COMBAT_COUNT",
+    "combatant_append_96B0",
+    "BCS"
+   ]
+  },
+  {
+   "page": "08-combat.md",
+   "wline": 77,
+   "ref": "combat.c:438",
+   "file": "combat.c",
+   "line": 438,
+   "endline": 438,
+   "status": "VALID",
+   "match": "COMBAT_ITER",
+   "fn": "combat_compact_pool_99F1@426",
+   "cands": [
+    "combatant_append_96B0",
+    "BCS",
+    "COMBAT_ITER"
+   ]
+  },
+  {
+   "page": "08-combat.md",
+   "wline": 120,
+   "ref": "combat.c:411",
+   "file": "combat.c",
+   "line": 411,
+   "endline": 411,
+   "status": "VALID",
+   "match": "state",
+   "fn": "combatant_append_96B0@320",
+   "cands": [
+    "state",
+    "COMBAT_LAST_IDX"
+   ]
+  },
+  {
+   "page": "08-combat.md",
+   "wline": 127,
+   "ref": "combat.c:586-605",
+   "file": "combat.c",
+   "line": 586,
+   "endline": 605,
+   "status": "VALID",
+   "match": "COMBAT_SELF_TILE",
+   "fn": "fight_resolver_96D7@453",
+   "cands": [
+    "COMBAT_SELF_TILE",
+    "FIGHTS_R_WON_48"
+   ]
+  },
+  {
+   "page": "08-combat.md",
+   "wline": 150,
+   "ref": "combat.c:171-174",
+   "file": "combat.c",
+   "line": 171,
+   "endline": 174,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": null,
+   "cands": []
+  },
+  {
+   "page": "08-combat.md",
+   "wline": 167,
+   "ref": "combat.c:758",
+   "file": "combat.c",
+   "line": 758,
+   "endline": 758,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": "combatant_can_engage_A359@686",
+   "cands": [
+    "code"
+   ]
+  },
+  {
+   "page": "08-combat.md",
+   "wline": 202,
+   "ref": "combat.c:876",
+   "file": "combat.c",
+   "line": 876,
+   "endline": 876,
+   "status": "VALID",
+   "match": "FIGHTS_B_WON_44",
+   "fn": "kill_dispatcher_D334@775",
+   "cands": [
+    "E84C",
+    "E844",
+    "INC",
+    "FIGHTS_B_WON_44",
+    "FIGHTS_B_WON_HI_46",
+    "kill_cleanup_D4B5"
+   ]
+  },
+  {
+   "page": "08-combat.md",
+   "wline": 213,
+   "ref": "combat.c:915",
+   "file": "combat.c",
+   "line": 915,
+   "endline": 915,
+   "status": "VALID",
+   "match": "FIGHTS_B_WON_44",
+   "fn": "kill_dispatcher_D334@775",
+   "cands": [
+    "INC",
+    "FIGHTS_B_WON_44",
+    "FIGHTS_B_WON_HI_46",
+    "kill_cleanup_D4B5",
+    "simulate_attack_red_for_yellow"
+   ]
+  },
+  {
+   "page": "08-combat.md",
+   "wline": 259,
+   "ref": "combat.c:307",
+   "file": "combat.c",
+   "line": 307,
+   "endline": 307,
+   "status": "VALID",
+   "match": "FIGHTS_B_WON_44",
+   "fn": null,
+   "cands": [
+    "FIGHTS_B_WON_44",
+    "FIGHTS_R_WON_48",
+    "FIGHTS_DRAW_4C",
+    "E846",
+    "E84A",
+    "live_stats_summary"
+   ]
+  },
+  {
+   "page": "08-combat.md",
+   "wline": 264,
+   "ref": "combat.c:438",
+   "file": "combat.c",
+   "line": 438,
+   "endline": 438,
+   "status": "VALID",
+   "match": "fight_resolver_96D7",
+   "fn": "combat_compact_pool_99F1@426",
+   "cands": [
+    "FIGHTS_B_WON_44",
+    "FIGHTS_R_WON_48",
+    "FIGHTS_DRAW_4C",
+    "E846",
+    "E84A",
+    "combatant_append_96B0"
+   ]
+  },
+  {
+   "page": "08-combat.md",
+   "wline": 280,
+   "ref": "combat.c:758",
+   "file": "combat.c",
+   "line": 758,
+   "endline": 758,
+   "status": "VALID",
+   "match": "kill_dispatcher_D334",
+   "fn": "combatant_can_engage_A359@686",
+   "cands": [
+    "combat_compact_pool_99F1",
+    "kill_dispatcher_D334",
+    "FIGHTS_B_WON_44",
+    "FIGHTS_R_WON_48"
+   ]
+  },
+  {
+   "page": "08-combat.md",
+   "wline": 317,
+   "ref": "combat.c:64-79",
+   "file": "combat.c",
+   "line": 64,
+   "endline": 79,
+   "status": "WRONG_LINE",
+   "match": null,
+   "fn": "KILLS_E854_FOUND_HERE@257",
+   "cands": [
+    "KILLS_E854"
+   ]
+  },
+  {
+   "page": "09-predation.md",
+   "wline": 33,
+   "ref": "combat.c:1051",
+   "file": "combat.c",
+   "line": 1051,
+   "endline": 1051,
+   "status": "VALID",
+   "match": "spider_predation_tick_C0FD_excerpt",
+   "fn": "yellow_ant_attack_red_simulate@934",
+   "cands": [
+    "spider_predation_tick_C0FD_excerpt",
+    "type17_handler_A43B"
+   ]
+  },
+  {
+   "page": "09-predation.md",
+   "wline": 65,
+   "ref": "combat.c:1097-1131",
+   "file": "combat.c",
+   "line": 1097,
+   "endline": 1131,
+   "status": "VALID",
+   "match": "neigh_dy_set1_8077",
+   "fn": "spider_predation_tick_C0FD_excerpt@1073",
+   "cands": [
+    "neigh_dy_set1_8077",
+    "neigh_dx_set1_8065",
+    "ant_at_position_2991",
+    "rand_modulo_F3BD"
+   ]
+  },
+  {
+   "page": "09-predation.md",
+   "wline": 126,
+   "ref": "combat.c:1177",
+   "file": "combat.c",
+   "line": 1177,
+   "endline": 1177,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": "spider_predation_tick_C0FD_excerpt@1073",
+   "cands": []
+  },
+  {
+   "page": "09-predation.md",
+   "wline": 188,
+   "ref": "combat.c:1252",
+   "file": "combat.c",
+   "line": 1252,
+   "endline": 1252,
+   "status": "VALID",
+   "match": "hand_squash_EF02",
+   "fn": "mass_kill_sweep_EF1E@1202",
+   "cands": [
+    "hand_squash_EF02"
+   ]
+  },
+  {
+   "page": "09-predation.md",
+   "wline": 217,
+   "ref": "combat.c:1307",
+   "file": "combat.c",
+   "line": 1307,
+   "endline": 1307,
+   "status": "VALID",
+   "match": "EATEN_COUNTER",
+   "fn": "mass_kill_sweep_EF1E@1202",
+   "cands": [
+    "EATEN_COUNTER"
+   ]
+  },
+  {
+   "page": "09-predation.md",
+   "wline": 239,
+   "ref": "combat.c:1363",
+   "file": "combat.c",
+   "line": 1363,
+   "endline": 1363,
+   "status": "VALID",
+   "match": "EATEN_COUNTER",
+   "fn": "eat_food_8C00@1340",
+   "cands": [
+    "EATEN_COUNTER",
+    "STARVED_COUNTER",
+    "tile_commit_855B",
+    "corpse_spawn_B198"
+   ]
+  },
+  {
+   "page": "09-predation.md",
+   "wline": 270,
+   "ref": "combat.c:1051",
+   "file": "combat.c",
+   "line": 1051,
+   "endline": 1051,
+   "status": "VALID",
+   "match": "ant_at_position_2991",
+   "fn": "yellow_ant_attack_red_simulate@934",
+   "cands": [
+    "ant_at_position_2991"
+   ]
+  },
+  {
+   "page": "09-predation.md",
+   "wline": 281,
+   "ref": "combat.c:1177",
+   "file": "combat.c",
+   "line": 1177,
+   "endline": 1177,
+   "status": "VALID",
+   "match": "ant_at_position_2991",
+   "fn": "spider_predation_tick_C0FD_excerpt@1073",
+   "cands": [
+    "ant_at_position_2991",
+    "corpse_spawn_B198",
+    "mass_kill_sweep_EF1E"
+   ]
+  },
+  {
+   "page": "09-predation.md",
+   "wline": 290,
+   "ref": "combat.c:1252",
+   "file": "combat.c",
+   "line": 1252,
+   "endline": 1252,
+   "status": "VALID",
+   "match": "mass_kill_sweep_EF1E",
+   "fn": "mass_kill_sweep_EF1E@1202",
+   "cands": [
+    "mass_kill_sweep_EF1E",
+    "hand_squash_EF02",
+    "eat_food_8C00"
+   ]
+  },
+  {
+   "page": "09-predation.md",
+   "wline": 296,
+   "ref": "combat.c:1307",
+   "file": "combat.c",
+   "line": 1307,
+   "endline": 1307,
+   "status": "VALID",
+   "match": "hand_squash_EF02",
+   "fn": "mass_kill_sweep_EF1E@1202",
+   "cands": [
+    "kill_sweep_EF1E",
+    "hand_squash_EF02",
+    "eat_food_8C00",
+    "starve_kill_8DBA"
+   ]
+  },
+  {
+   "page": "09-predation.md",
+   "wline": 299,
+   "ref": "combat.c:1363",
+   "file": "combat.c",
+   "line": 1363,
+   "endline": 1363,
+   "status": "VALID",
+   "match": "eat_food_8C00",
+   "fn": "eat_food_8C00@1340",
+   "cands": [
+    "hand_squash_EF02",
+    "eat_food_8C00",
+    "starve_kill_8DBA"
+   ]
+  },
+  {
+   "page": "10-territory-49areas.md",
+   "wline": 24,
+   "ref": "territory.c:170",
+   "file": "territory.c",
+   "line": 170,
+   "endline": 170,
+   "status": "VALID",
+   "match": "area_offset_F5B2",
+   "fn": "area_state_has_R@154",
+   "cands": [
+    "area_offset_F5B2",
+    "AREA_B_POP_MAP",
+    "AREA_R_POP_MAP",
+    "AREA_B_POP",
+    "AREA_R_POP"
+   ]
+  },
+  {
+   "page": "10-territory-49areas.md",
+   "wline": 41,
+   "ref": "territory.c:780-810",
+   "file": "territory.c",
+   "line": 780,
+   "endline": 810,
+   "status": "VALID",
+   "match": "CUR_AREA_X",
+   "fn": "house_click_reject_with_msg@780",
+   "cands": [
+    "area_offset_F5B2",
+    "CUR_AREA_X",
+    "CUR_AREA_Y",
+    "AREA_R_POP_MAP",
+    "AREA_B_POP",
+    "AREA_R_POP"
+   ]
+  },
+  {
+   "page": "10-territory-49areas.md",
+   "wline": 60,
+   "ref": "territory.c:127",
+   "file": "territory.c",
+   "line": 127,
+   "endline": 127,
+   "status": "VALID",
+   "match": "STATE",
+   "fn": null,
+   "cands": [
+    "STATE"
+   ]
+  },
+  {
+   "page": "10-territory-49areas.md",
+   "wline": 81,
+   "ref": "territory.c:417",
+   "file": "territory.c",
+   "line": 417,
+   "endline": 417,
+   "status": "VALID",
+   "match": "territory_marriage_flight_trigger_9E35",
+   "fn": "status_screen_compute_territory@310",
+   "cands": [
+    "STRIPED_A",
+    "STRIPED_B",
+    "LIVE_AREA_LAST_IDX",
+    "territory_marriage_flight_trigger_9E35",
+    "AREA_B_POP_LIVE"
+   ]
+  },
+  {
+   "page": "10-territory-49areas.md",
+   "wline": 108,
+   "ref": "territory.c:391",
+   "file": "territory.c",
+   "line": 391,
+   "endline": 391,
+   "status": "VALID",
+   "match": "territory_marriage_flight_trigger_9E35",
+   "fn": "status_screen_compute_territory@310",
+   "cands": [
+    "territory_marriage_flight_trigger_9E35",
+    "AREA_B_POP_LIVE",
+    "POP_B_BREEDER",
+    "POP_R_BREEDER",
+    "queue_event_F65A",
+    "mass_exodus_cap_and_presence_F050"
+   ]
+  },
+  {
+   "page": "10-territory-49areas.md",
+   "wline": 112,
+   "ref": "territory.c:482",
+   "file": "territory.c",
+   "line": 482,
+   "endline": 482,
+   "status": "VALID",
+   "match": "AREA_B_POP_LIVE",
+   "fn": "territory_marriage_flight_trigger_9E35@423",
+   "cands": [
+    "AREA_B_POP_LIVE",
+    "POP_B_BREEDER",
+    "POP_R_BREEDER",
+    "queue_event_F65A",
+    "mass_exodus_cap_and_presence_F050",
+    "area_grid_scan_F02A"
+   ]
+  },
+  {
+   "page": "10-territory-49areas.md",
+   "wline": 114,
+   "ref": "territory.c:643",
+   "file": "territory.c",
+   "line": 643,
+   "endline": 643,
+   "status": "VALID",
+   "match": "mass_exodus_cap_and_presence_F050",
+   "fn": "area_split_to_neighbour_F358@545",
+   "cands": [
+    "P_B_BREEDER",
+    "POP_R_BREEDER",
+    "queue_event_F65A",
+    "mass_exodus_cap_and_presence_F050",
+    "area_grid_scan_F02A",
+    "AREA_B_POP"
+   ]
+  },
+  {
+   "page": "10-territory-49areas.md",
+   "wline": 144,
+   "ref": "territory.c:506",
+   "file": "territory.c",
+   "line": 506,
+   "endline": 506,
+   "status": "VALID",
+   "match": "neighbour_balance_F2D9",
+   "fn": "mass_exodus_cap_and_presence_F050@489",
+   "cands": [
+    "neighbour_balance_F2D9",
+    "split_to_neighbour",
+    "AREA_R_POP"
+   ]
+  },
+  {
+   "page": "10-territory-49areas.md",
+   "wline": 152,
+   "ref": "territory.c:538",
+   "file": "territory.c",
+   "line": 538,
+   "endline": 538,
+   "status": "VALID",
+   "match": "neighbour_balance_F2D9",
+   "fn": "neighbour_balance_F2D9@513",
+   "cands": [
+    "neighbour_balance_F2D9",
+    "area_split_to_neighbour_F358",
+    "AREA_B_POP",
+    "AREA_R_POP",
+    "rand_signed_F38D"
+   ]
+  },
+  {
+   "page": "10-territory-49areas.md",
+   "wline": 163,
+   "ref": "territory.c:696-699",
+   "file": "territory.c",
+   "line": 696,
+   "endline": 699,
+   "status": "VALID",
+   "match": "AREA_B_POP",
+   "fn": "area_grid_scan_F02A@651",
+   "cands": [
+    "AREA_B_POP",
+    "AREA_R_POP",
+    "rand_signed_F38D"
+   ]
+  },
+  {
+   "page": "10-territory-49areas.md",
+   "wline": 173,
+   "ref": "territory.c:764-776",
+   "file": "territory.c",
+   "line": 764,
+   "endline": 776,
+   "status": "VALID",
+   "match": "house_can_move_to_clicked",
+   "fn": "area_grid_scan_F02A@651",
+   "cands": [
+    "house_can_move_to_clicked",
+    "clicked_live_idx",
+    "area_state_has_B",
+    "LIVE_AREA_STATE"
+   ]
+  },
+  {
+   "page": "10-territory-49areas.md",
+   "wline": 183,
+   "ref": "territory.c:935-963",
+   "file": "territory.c",
+   "line": 935,
+   "endline": 963,
+   "status": "VALID",
+   "match": "area_grid_scan_F02A",
+   "fn": "area_state_advance_9930@898",
+   "cands": [
+    "area_grid_scan_F02A",
+    "house_can_move_to_clicked",
+    "clicked_live_idx",
+    "area_state_has_B",
+    "LIVE_AREA_STATE"
+   ]
+  },
+  {
+   "page": "11-house-screen-ui.md",
+   "wline": 15,
+   "ref": "ui_menus.c:94-100",
+   "file": "ui_menus.c",
+   "line": 94,
+   "endline": 100,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": null,
+   "cands": []
+  },
+  {
+   "page": "11-house-screen-ui.md",
+   "wline": 28,
+   "ref": "ui_menus.c:864-883",
+   "file": "ui_menus.c",
+   "line": 864,
+   "endline": 883,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": "status_screen_compute@846",
+   "cands": []
+  },
+  {
+   "page": "11-house-screen-ui.md",
+   "wline": 36,
+   "ref": "ui_menus.c:906",
+   "file": "ui_menus.c",
+   "line": 906,
+   "endline": 906,
+   "status": "VALID",
+   "match": "state_house_screen_setup",
+   "fn": "status_screen_compute@846",
+   "cands": [
+    "state_house_screen_setup"
+   ]
+  },
+  {
+   "page": "11-house-screen-ui.md",
+   "wline": 44,
+   "ref": "ui_menus.c:606",
+   "file": "ui_menus.c",
+   "line": 606,
+   "endline": 606,
+   "status": "VALID",
+   "match": "eval_nav_icons",
+   "fn": "house_screen_render_04_BD9B@567",
+   "cands": [
+    "state_house_screen_setup",
+    "eval_nav_icons"
+   ]
+  },
+  {
+   "page": "11-house-screen-ui.md",
+   "wline": 52,
+   "ref": "ui_menus.c:560",
+   "file": "ui_menus.c",
+   "line": 560,
+   "endline": 560,
+   "status": "VALID",
+   "match": "house_screen_render_04_BD9B",
+   "fn": "house_area_append_039_6B0@537",
+   "cands": [
+    "house_screen_render_04_BD9B",
+    "LIVE_AREA_COUNT",
+    "eval_nav_icons"
+   ]
+  },
+  {
+   "page": "11-house-screen-ui.md",
+   "wline": 93,
+   "ref": "territory.c:108-126",
+   "file": "territory.c",
+   "line": 108,
+   "endline": 126,
+   "status": "VALID",
+   "match": "AREA_STATE",
+   "fn": null,
+   "cands": [
+    "AREA_STATE"
+   ]
+  },
+  {
+   "page": "11-house-screen-ui.md",
+   "wline": 109,
+   "ref": "render_helpers.c:1008",
+   "file": "render_helpers.c",
+   "line": 1008,
+   "endline": 1008,
+   "status": "VALID",
+   "match": "pop_grid_draw_DCC1",
+   "fn": "pop_grid_lattice_DB90@996",
+   "cands": [
+    "AREA_LAST_IDX",
+    "AREA_B_POP_MAP",
+    "AREA_R_POP_MAP",
+    "pop_grid_draw_DCC1",
+    "pop_cell_xy_DD40"
+   ]
+  },
+  {
+   "page": "11-house-screen-ui.md",
+   "wline": 114,
+   "ref": "render_helpers.c:922",
+   "file": "render_helpers.c",
+   "line": 922,
+   "endline": 922,
+   "status": "VALID",
+   "match": "pop_cell_xy_DD40",
+   "fn": "hist_erase_all_D4D2@874",
+   "cands": [
+    "AREA_B_POP_MAP",
+    "AREA_R_POP_MAP",
+    "pop_grid_draw_DCC1",
+    "pop_cell_xy_DD40"
+   ]
+  },
+  {
+   "page": "11-house-screen-ui.md",
+   "wline": 127,
+   "ref": "render_helpers.c:938",
+   "file": "render_helpers.c",
+   "line": 938,
+   "endline": 938,
+   "status": "VALID",
+   "match": "pop_grid_draw_DCC1",
+   "fn": "pop_cell_xy_DD40@927",
+   "cands": [
+    "pop_grid_draw_DCC1",
+    "pop_cell_xy_DD40",
+    "pop_cell_render_DCE4",
+    "pop_B",
+    "pop_R"
+   ]
+  },
+  {
+   "page": "11-house-screen-ui.md",
+   "wline": 138,
+   "ref": "render_helpers.c:972",
+   "file": "render_helpers.c",
+   "line": 972,
+   "endline": 972,
+   "status": "VALID",
+   "match": "pop_cell_render_DCE4",
+   "fn": "pop_cell_render_DCE4@944",
+   "cands": [
+    "pop_cell_render_DCE4",
+    "pop_B",
+    "pop_R",
+    "sub_490E2"
+   ]
+  },
+  {
+   "page": "11-house-screen-ui.md",
+   "wline": 153,
+   "ref": "render_helpers.c:989",
+   "file": "render_helpers.c",
+   "line": 989,
+   "endline": 989,
+   "status": "VALID",
+   "match": "pop_cell_render_DCE4",
+   "fn": "pop_cell_render_DCE4@944",
+   "cands": [
+    "pop_cell_render_DCE4",
+    "pop_grid_lattice_DB90"
+   ]
+  },
+  {
+   "page": "11-house-screen-ui.md",
+   "wline": 174,
+   "ref": "territory.c:764",
+   "file": "territory.c",
+   "line": 764,
+   "endline": 764,
+   "status": "VALID",
+   "match": "house_can_move_to_clicked",
+   "fn": "area_grid_scan_F02A@651",
+   "cands": [
+    "pop_cell_render_DCE4",
+    "house_can_move_to_clicked",
+    "CUR_AREA_X",
+    "CUR_AREA_Y"
+   ]
+  },
+  {
+   "page": "11-house-screen-ui.md",
+   "wline": 178,
+   "ref": "territory.c:780-810",
+   "file": "territory.c",
+   "line": 780,
+   "endline": 810,
+   "status": "VALID",
+   "match": "house_can_move_to_clicked",
+   "fn": "house_click_reject_with_msg@780",
+   "cands": [
+    "house_can_move_to_clicked",
+    "CUR_AREA_X",
+    "CUR_AREA_Y",
+    "house_compute_tallies"
+   ]
+  },
+  {
+   "page": "11-house-screen-ui.md",
+   "wline": 182,
+   "ref": "ui_menus.c:625",
+   "file": "ui_menus.c",
+   "line": 625,
+   "endline": 625,
+   "status": "VALID",
+   "match": "house_compute_tallies",
+   "fn": "house_screen_render_04_BD9B@567",
+   "cands": [
+    "house_can_move_to_clicked",
+    "CUR_AREA_X",
+    "CUR_AREA_Y",
+    "house_compute_tallies"
+   ]
+  },
+  {
+   "page": "11-house-screen-ui.md",
+   "wline": 196,
+   "ref": "ui_menus.c:906",
+   "file": "ui_menus.c",
+   "line": 906,
+   "endline": 906,
+   "status": "VALID",
+   "match": "house_compute_tallies",
+   "fn": "status_screen_compute@846",
+   "cands": [
+    "house_compute_tallies",
+    "state_house_screen_setup"
+   ]
+  },
+  {
+   "page": "11-house-screen-ui.md",
+   "wline": 203,
+   "ref": "ui_menus.c:560",
+   "file": "ui_menus.c",
+   "line": 560,
+   "endline": 560,
+   "status": "VALID",
+   "match": "house_screen_render_04_BD9B",
+   "fn": "house_area_append_039_6B0@537",
+   "cands": [
+    "state_house_screen_setup",
+    "house_screen_render_04_BD9B",
+    "rom_04_BE41"
+   ]
+  },
+  {
+   "page": "11-house-screen-ui.md",
+   "wline": 214,
+   "ref": "render_helpers.c:1008",
+   "file": "render_helpers.c",
+   "line": 1008,
+   "endline": 1008,
+   "status": "VALID",
+   "match": "pop_grid_draw_DCC1",
+   "fn": "pop_grid_lattice_DB90@996",
+   "cands": [
+    "rom_04_BE41",
+    "AREA_LAST_IDX",
+    "state_population_graph_setup",
+    "pop_grid_draw_DCC1",
+    "pop_cell_render_DCE4",
+    "pop_grid_lattice_DB90"
+   ]
+  },
+  {
+   "page": "11-house-screen-ui.md",
+   "wline": 225,
+   "ref": "ui_menus.c:906",
+   "file": "ui_menus.c",
+   "line": 906,
+   "endline": 906,
+   "status": "VALID",
+   "match": "state_house_screen_setup",
+   "fn": "status_screen_compute@846",
+   "cands": [
+    "state_house_screen_setup",
+    "house_screen_render_04_BD9B",
+    "pop_grid_lattice_DB90",
+    "pop_cell_xy_DD40"
+   ]
+  },
+  {
+   "page": "11-house-screen-ui.md",
+   "wline": 226,
+   "ref": "ui_menus.c:560",
+   "file": "ui_menus.c",
+   "line": 560,
+   "endline": 560,
+   "status": "VALID",
+   "match": "house_screen_render_04_BD9B",
+   "fn": "house_area_append_039_6B0@537",
+   "cands": [
+    "state_house_screen_setup",
+    "house_screen_render_04_BD9B",
+    "rom_04_BE41_area_tile"
+   ]
+  },
+  {
+   "page": "11-house-screen-ui.md",
+   "wline": 227,
+   "ref": "ui_menus.c:558",
+   "file": "ui_menus.c",
+   "line": 558,
+   "endline": 558,
+   "status": "VALID",
+   "match": "house_screen_render_04_BD9B",
+   "fn": "house_area_append_039_6B0@537",
+   "cands": [
+    "state_house_screen_setup",
+    "house_screen_render_04_BD9B",
+    "rom_04_BE41_area_tile"
+   ]
+  },
+  {
+   "page": "11-house-screen-ui.md",
+   "wline": 229,
+   "ref": "ui_menus.c:531",
+   "file": "ui_menus.c",
+   "line": 531,
+   "endline": 531,
+   "status": "VALID",
+   "match": "house_screen_render_04_BD9B",
+   "fn": "sub_C91F_text_render@460",
+   "cands": [
+    "state_house_screen_setup",
+    "house_screen_render_04_BD9B",
+    "house_area_append_039_6B0",
+    "pop_grid_draw_DCC1",
+    "rom_04_BE41_area_tile"
+   ]
+  },
+  {
+   "page": "11-house-screen-ui.md",
+   "wline": 230,
+   "ref": "render_helpers.c:1008",
+   "file": "render_helpers.c",
+   "line": 1008,
+   "endline": 1008,
+   "status": "VALID",
+   "match": "pop_grid_draw_DCC1",
+   "fn": "pop_grid_lattice_DB90@996",
+   "cands": [
+    "house_screen_render_04_BD9B",
+    "house_area_append_039_6B0",
+    "pop_grid_draw_DCC1",
+    "pop_cell_render_DCE4",
+    "rom_04_BE41_area_tile"
+   ]
+  },
+  {
+   "page": "11-house-screen-ui.md",
+   "wline": 231,
+   "ref": "render_helpers.c:938",
+   "file": "render_helpers.c",
+   "line": 938,
+   "endline": 938,
+   "status": "VALID",
+   "match": "pop_grid_draw_DCC1",
+   "fn": "pop_cell_xy_DD40@927",
+   "cands": [
+    "house_area_append_039_6B0",
+    "pop_grid_draw_DCC1",
+    "pop_cell_render_DCE4",
+    "pop_cell_xy_DD40",
+    "rom_04_BE41_area_tile"
+   ]
+  },
+  {
+   "page": "11-house-screen-ui.md",
+   "wline": 232,
+   "ref": "render_helpers.c:922",
+   "file": "render_helpers.c",
+   "line": 922,
+   "endline": 922,
+   "status": "VALID",
+   "match": "pop_cell_render_DCE4",
+   "fn": "hist_erase_all_D4D2@874",
+   "cands": [
+    "house_area_append_039_6B0",
+    "pop_grid_draw_DCC1",
+    "pop_cell_render_DCE4",
+    "pop_cell_xy_DD40",
+    "pop_grid_lattice_DB90"
+   ]
+  },
+  {
+   "page": "11-house-screen-ui.md",
+   "wline": 233,
+   "ref": "render_helpers.c:989",
+   "file": "render_helpers.c",
+   "line": 989,
+   "endline": 989,
+   "status": "VALID",
+   "match": "pop_grid_draw_DCC1",
+   "fn": "pop_cell_render_DCE4@944",
+   "cands": [
+    "house_area_append_039_6B0",
+    "pop_grid_draw_DCC1",
+    "pop_cell_render_DCE4",
+    "pop_cell_xy_DD40",
+    "pop_grid_lattice_DB90"
+   ]
+  },
+  {
+   "page": "12-control-panels.md",
+   "wline": 22,
+   "ref": "control_panels.c:945-948",
+   "file": "control_panels.c",
+   "line": 945,
+   "endline": 948,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": "cp_seed_initial_9700@931",
+   "cands": []
+  },
+  {
+   "page": "12-control-panels.md",
+   "wline": 42,
+   "ref": "control_panels.c:227",
+   "file": "control_panels.c",
+   "line": 227,
+   "endline": 227,
+   "status": "VALID",
+   "match": "sub_D034",
+   "fn": null,
+   "cands": [
+    "sub_D034",
+    "COLONY_TOTAL_POP",
+    "cp_triangle_xy_to_weights_D034"
+   ]
+  },
+  {
+   "page": "12-control-panels.md",
+   "wline": 62,
+   "ref": "control_panels.c:263",
+   "file": "control_panels.c",
+   "line": 263,
+   "endline": 263,
+   "status": "VALID",
+   "match": "sub_8D41",
+   "fn": "cp_triangle_xy_to_weights_D034@233",
+   "cands": [
+    "sub_8D41",
+    "sub_8D05",
+    "sub_D074",
+    "cp_triangle_weights_to_xy_D074"
+   ]
+  },
+  {
+   "page": "12-control-panels.md",
+   "wline": 151,
+   "ref": "control_panels.c:379",
+   "file": "control_panels.c",
+   "line": 379,
+   "endline": 379,
+   "status": "VALID",
+   "match": "CP_CASTE_RIGHT",
+   "fn": "cp_behavior_commit_CE9A@373",
+   "cands": [
+    "CP_CASTE_RIGHT",
+    "CP_CASTE_TOP",
+    "CP_COLONY_WORKERS",
+    "CP_COLONY_SOLDIERS",
+    "CP_COLONY_BREEDERS_A",
+    "CP_COLONY_BREEDERS_B"
+   ]
+  },
+  {
+   "page": "12-control-panels.md",
+   "wline": 153,
+   "ref": "control_panels.c:406",
+   "file": "control_panels.c",
+   "line": 406,
+   "endline": 406,
+   "status": "VALID",
+   "match": "CP_COLONY_WORKERS",
+   "fn": "cp_caste_load_for_display_CEAA@398",
+   "cands": [
+    "CP_COLONY_WORKERS",
+    "CP_COLONY_SOLDIERS",
+    "CP_COLONY_BREEDERS_A",
+    "CP_COLONY_BREEDERS_B",
+    "CP_CASTE_TOP"
+   ]
+  },
+  {
+   "page": "12-control-panels.md",
+   "wline": 176,
+   "ref": "control_panels.c:353",
+   "file": "control_panels.c",
+   "line": 353,
+   "endline": 353,
+   "status": "VALID",
+   "match": "cp_behavior_load_for_display_CE87",
+   "fn": "cp_restore_cursor_CE79@348",
+   "cands": [
+    "cp_behavior_load_for_display_CE87",
+    "cp_caste_load_for_display_CEAA"
+   ]
+  },
+  {
+   "page": "12-control-panels.md",
+   "wline": 178,
+   "ref": "control_panels.c:391",
+   "file": "control_panels.c",
+   "line": 391,
+   "endline": 391,
+   "status": "VALID",
+   "match": "cp_behavior_load_for_display_CE87",
+   "fn": "cp_caste_auto_pack_CEC0@386",
+   "cands": [
+    "cp_behavior_load_for_display_CE87",
+    "cp_caste_load_for_display_CEAA"
+   ]
+  },
+  {
+   "page": "12-control-panels.md",
+   "wline": 191,
+   "ref": "control_panels.c:366",
+   "file": "control_panels.c",
+   "line": 366,
+   "endline": 366,
+   "status": "VALID",
+   "match": "cp_caste_load_for_display_CEAA",
+   "fn": "cp_behavior_load_for_display_CE87@360",
+   "cands": [
+    "cp_caste_load_for_display_CEAA",
+    "cp_behavior_commit_CE9A",
+    "cp_caste_commit_CEDB"
+   ]
+  },
+  {
+   "page": "12-control-panels.md",
+   "wline": 193,
+   "ref": "control_panels.c:406",
+   "file": "control_panels.c",
+   "line": 406,
+   "endline": 406,
+   "status": "VALID",
+   "match": "cp_behavior_commit_CE9A",
+   "fn": "cp_caste_load_for_display_CEAA@398",
+   "cands": [
+    "cp_behavior_commit_CE9A",
+    "cp_caste_commit_CEDB"
+   ]
+  },
+  {
+   "page": "12-control-panels.md",
+   "wline": 199,
+   "ref": "control_panels.c:807-856",
+   "file": "control_panels.c",
+   "line": 807,
+   "endline": 856,
+   "status": "VALID",
+   "match": "cp_behavior_commit_CE9A",
+   "fn": "cp_state_run_CCD0@739",
+   "cands": [
+    "cp_behavior_commit_CE9A",
+    "cp_caste_commit_CEDB",
+    "sub_CCD0",
+    "cp_state_run_CCD"
+   ]
+  },
+  {
+   "page": "12-control-panels.md",
+   "wline": 204,
+   "ref": "control_panels.c:730",
+   "file": "control_panels.c",
+   "line": 730,
+   "endline": 730,
+   "status": "VALID",
+   "match": "cp_caste_commit_CEDB",
+   "fn": "cp_state_setup_CA96@612",
+   "cands": [
+    "cp_caste_commit_CEDB",
+    "sub_CCD0",
+    "DP_STATE",
+    "cp_state_run_CCD0"
+   ]
+  },
+  {
+   "page": "12-control-panels.md",
+   "wline": 257,
+   "ref": "control_panels.c:494",
+   "file": "control_panels.c",
+   "line": 494,
+   "endline": 494,
+   "status": "VALID",
+   "match": "CP_PCT_DISPLAY",
+   "fn": "cp_caste_pct_to_count_CFDF@477",
+   "cands": [
+    "CP_PCT_DISPLAY",
+    "total_pop",
+    "COLONY_TOTAL_POP_7FEB60",
+    "cp_redraw_CF05",
+    "cp_pct_to_count_CFB9",
+    "cp_seed_initial_9700"
+   ]
+  },
+  {
+   "page": "12-control-panels.md",
+   "wline": 258,
+   "ref": "control_panels.c:429",
+   "file": "control_panels.c",
+   "line": 429,
+   "endline": 429,
+   "status": "VALID",
+   "match": "total_pop",
+   "fn": "cp_caste_commit_CEDB@414",
+   "cands": [
+    "total_pop",
+    "COLONY_TOTAL_POP_7FEB60",
+    "cp_redraw_CF05",
+    "cp_pct_to_count_CFB9",
+    "cp_seed_initial_9700",
+    "pct_to_count"
+   ]
+  },
+  {
+   "page": "12-control-panels.md",
+   "wline": 262,
+   "ref": "control_panels.c:921",
+   "file": "control_panels.c",
+   "line": 921,
+   "endline": 921,
+   "status": "VALID",
+   "match": "cp_seed_initial_9700",
+   "fn": "cp_icon2_control_pick@906",
+   "cands": [
+    "total_pop",
+    "COLONY_TOTAL_POP_7FEB60",
+    "cp_redraw_CF05",
+    "cp_pct_to_count_CFB9",
+    "cp_seed_initial_9700",
+    "pct_to_count"
+   ]
+  },
+  {
+   "page": "12-control-panels.md",
+   "wline": 314,
+   "ref": "control_panels.c:807-856",
+   "file": "control_panels.c",
+   "line": 807,
+   "endline": 856,
+   "status": "VALID",
+   "match": "cp_seed_initial_9700",
+   "fn": "cp_state_run_CCD0@739",
+   "cands": [
+    "cp_seed_initial_9700",
+    "icon_menu_vertical"
+   ]
+  },
+  {
+   "page": "12-control-panels.md",
+   "wline": 317,
+   "ref": "control_panels.c:897",
+   "file": "control_panels.c",
+   "line": 897,
+   "endline": 897,
+   "status": "VALID",
+   "match": "cp_icon2_control_pick",
+   "fn": "cp_state_run_CCD0@739",
+   "cands": [
+    "cp_icon2_control_pick",
+    "icon_menu_vertical"
+   ]
+  },
+  {
+   "page": "13-player-actions.md",
+   "wline": 63,
+   "ref": "player_actions.c:1161",
+   "file": "player_actions.c",
+   "line": 1161,
+   "endline": 1161,
+   "status": "VALID",
+   "match": "sub_DC84_entity_clicked",
+   "fn": "player_a_button_action@1129",
+   "cands": [
+    "sub_DC84_entity_clicked",
+    "player_b_button_action",
+    "close_up_nest_a_button_action_CD30"
+   ]
+  },
+  {
+   "page": "13-player-actions.md",
+   "wline": 96,
+   "ref": "player_actions_full.c:542",
+   "file": "player_actions_full.c",
+   "line": 542,
+   "endline": 542,
+   "status": "VALID",
+   "match": "recruit_menu_open_009D1A",
+   "fn": "queen_menu_open_009CF0@537",
+   "cands": [
+    "recruit_menu_open_009D1A",
+    "player_actions_full"
+   ]
+  },
+  {
+   "page": "13-player-actions.md",
+   "wline": 126,
+   "ref": "player_actions_full.c:116",
+   "file": "player_actions_full.c",
+   "line": 116,
+   "endline": 116,
+   "status": "VALID",
+   "match": "recruit_apply_02A1F4",
+   "fn": null,
+   "cands": [
+    "dig_action_03D7EA",
+    "neighbour_action_03D808",
+    "rect_sweep_action_03EE66",
+    "recruit_apply_02A1F4",
+    "release_apply_02A2CB",
+    "player_actions_full"
+   ]
+  },
+  {
+   "page": "13-player-actions.md",
+   "wline": 161,
+   "ref": "player_actions_full.c:522",
+   "file": "player_actions_full.c",
+   "line": 522,
+   "endline": 522,
+   "status": "VALID",
+   "match": "release_apply_02A2CB",
+   "fn": "player_action_dispatch_03D792@466",
+   "cands": [
+    "release_apply_02A2CB",
+    "queen_menu_open_009CF0",
+    "player_actions_full"
+   ]
+  },
+  {
+   "page": "13-player-actions.md",
+   "wline": 191,
+   "ref": "player_actions_full.c:268",
+   "file": "player_actions_full.c",
+   "line": 268,
+   "endline": 268,
+   "status": "VALID",
+   "match": "rect_sweep_action_03EE66",
+   "fn": "release_apply_02A2CB@192",
+   "cands": [
+    "rect_sweep_action_03EE66",
+    "player_actions_full",
+    "B_ATTR_Y"
+   ]
+  },
+  {
+   "page": "13-player-actions.md",
+   "wline": 274,
+   "ref": "player_actions.c:928",
+   "file": "player_actions.c",
+   "line": 928,
+   "endline": 928,
+   "status": "VALID",
+   "match": "Entity",
+   "fn": "simulate_eat_food_for_yellow_lift@908",
+   "cands": [
+    "Entity",
+    "scratch10",
+    "simulate_pickup_food_for_yellow_lift"
+   ]
+  },
+  {
+   "page": "14-scenarios.md",
+   "wline": 83,
+   "ref": "scenarios.c:243",
+   "file": "scenarios.c",
+   "line": 243,
+   "endline": 243,
+   "status": "VALID",
+   "match": "spawn_x_mul",
+   "fn": null,
+   "cands": [
+    "spawn_x_mul",
+    "spawn_y_mul",
+    "danger_rate_E8FE",
+    "food_budget_EE86",
+    "red_colony_size_E87E",
+    "entity_cap_EB46"
+   ]
+  },
+  {
+   "page": "14-scenarios.md",
+   "wline": 105,
+   "ref": "scenarios.c:163",
+   "file": "scenarios.c",
+   "line": 163,
+   "endline": 163,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": null,
+   "cands": []
+  },
+  {
+   "page": "14-scenarios.md",
+   "wline": 246,
+   "ref": "scenarios.c:440",
+   "file": "scenarios.c",
+   "line": 440,
+   "endline": 440,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": null,
+   "cands": []
+  },
+  {
+   "page": "14-scenarios.md",
+   "wline": 309,
+   "ref": "scenarios.c:243",
+   "file": "scenarios.c",
+   "line": 243,
+   "endline": 243,
+   "status": "WRONG_LINE",
+   "match": null,
+   "fn": "view_decoration_handler_FOUND_HERE@665",
+   "cands": [
+    "scent_rain_wash_cell_02_96A0",
+    "view_decoration_handler",
+    "scenario_rain_tick"
+   ]
+  },
+  {
+   "page": "14-scenarios.md",
+   "wline": 310,
+   "ref": "scenarios.c:654",
+   "file": "scenarios.c",
+   "line": 654,
+   "endline": 654,
+   "status": "VALID",
+   "match": "view_decoration_handler",
+   "fn": "scenario_rain_tick@638",
+   "cands": [
+    "scent_rain_wash_cell_02_96A0",
+    "view_decoration_handler",
+    "scenario_rain_tick"
+   ]
+  },
+  {
+   "page": "14-scenarios.md",
+   "wline": 312,
+   "ref": "scenarios.c:630",
+   "file": "scenarios.c",
+   "line": 630,
+   "endline": 630,
+   "status": "VALID",
+   "match": "view_decoration_handler",
+   "fn": "danger_bicycles_spawn@596",
+   "cands": [
+    "scent_rain_wash_cell_02_96A0",
+    "view_decoration_handler",
+    "scenario_rain_tick"
+   ]
+  },
+  {
+   "page": "14-scenarios.md",
+   "wline": 313,
+   "ref": "scent.c:471",
+   "file": "scent.c",
+   "line": 471,
+   "endline": 471,
+   "status": "VALID",
+   "match": "scent_rain_wash_cell_02_96A0",
+   "fn": "scent_decay_trail_red_03_936A@341",
+   "cands": [
+    "view_decoration_handler",
+    "scenario_rain_tick",
+    "scent_rain_wash_cell_02_96A0"
+   ]
+  },
+  {
+   "page": "14-scenarios.md",
+   "wline": 315,
+   "ref": "scenarios.c:440",
+   "file": "scenarios.c",
+   "line": 440,
+   "endline": 440,
+   "status": "WRONG_LINE",
+   "match": null,
+   "fn": "view_decoration_handler_FOUND_HERE@665",
+   "cands": [
+    "view_decoration_handler",
+    "scenario_rain_tick",
+    "scent_rain_wash_cell_02_96A0"
+   ]
+  },
+  {
+   "page": "15-dangers.md",
+   "wline": 104,
+   "ref": "scenarios.c:533",
+   "file": "scenarios.c",
+   "line": 533,
+   "endline": 533,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": "danger_feet_spawn@507",
+   "cands": []
+  },
+  {
+   "page": "15-dangers.md",
+   "wline": 171,
+   "ref": "combat.c:1177",
+   "file": "combat.c",
+   "line": 1177,
+   "endline": 1177,
+   "status": "VALID",
+   "match": "mass_kill_sweep_EF1E",
+   "fn": "spider_predation_tick_C0FD_excerpt@1073",
+   "cands": [
+    "D334",
+    "mass_kill_sweep_EF1E",
+    "kill_dispatcher_D334",
+    "rand_modulo_F3BD"
+   ]
+  },
+  {
+   "page": "15-dangers.md",
+   "wline": 222,
+   "ref": "combat.c:1252",
+   "file": "combat.c",
+   "line": 1252,
+   "endline": 1252,
+   "status": "VALID",
+   "match": "mass_kill_sweep_EF1E",
+   "fn": "mass_kill_sweep_EF1E@1202",
+   "cands": [
+    "mass_kill_sweep_EF1E",
+    "hand_squash_EF02",
+    "pop_aggregator_956E"
+   ]
+  },
+  {
+   "page": "16-rendering-pipeline.md",
+   "wline": 32,
+   "ref": "misc_helpers.c:56-83",
+   "file": "misc_helpers.c",
+   "line": 56,
+   "endline": 83,
+   "status": "VALID",
+   "match": "ppu_init_apply_BC7F",
+   "fn": null,
+   "cands": [
+    "main_9340",
+    "boot_init_BB8D",
+    "ppu_init_apply_BC7F",
+    "value"
+   ]
+  },
+  {
+   "page": "16-rendering-pipeline.md",
+   "wline": 46,
+   "ref": "misc_helpers.c:23-100",
+   "file": "misc_helpers.c",
+   "line": 23,
+   "endline": 100,
+   "status": "VALID",
+   "match": "ppu_init_apply_BC7F",
+   "fn": null,
+   "cands": [
+    "ppu_init_apply_BC7F"
+   ]
+  },
+  {
+   "page": "16-rendering-pipeline.md",
+   "wline": 86,
+   "ref": "simant.c:504-527",
+   "file": "simant.c",
+   "line": 504,
+   "endline": 527,
+   "status": "VALID",
+   "match": "sub_E527",
+   "fn": "nmi@461",
+   "cands": [
+    "sub_E527",
+    "vram_stream_step_814F"
+   ]
+  },
+  {
+   "page": "16-rendering-pipeline.md",
+   "wline": 116,
+   "ref": "simant.c:538-555",
+   "file": "simant.c",
+   "line": 538,
+   "endline": 555,
+   "status": "VALID",
+   "match": "sub_C804",
+   "fn": "vram_stream_step_814F@516",
+   "cands": [
+    "sub_C804",
+    "vram_queue_flush_C804"
+   ]
+  },
+  {
+   "page": "16-rendering-pipeline.md",
+   "wline": 150,
+   "ref": "simant.c:453-459",
+   "file": "simant.c",
+   "line": 453,
+   "endline": 459,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": "main_9340@411",
+   "cands": []
+  },
+  {
+   "page": "16-rendering-pipeline.md",
+   "wline": 166,
+   "ref": "simant.c:611-624",
+   "file": "simant.c",
+   "line": 611,
+   "endline": 624,
+   "status": "VALID",
+   "match": "shadow_oam_clear_88A5",
+   "fn": "bg_scroll_push_884A@610",
+   "cands": [
+    "shadow_oam_clear_88A5"
+   ]
+  },
+  {
+   "page": "16-rendering-pipeline.md",
+   "wline": 187,
+   "ref": "simant.c:598-606",
+   "file": "simant.c",
+   "line": 598,
+   "endline": 606,
+   "status": "VALID",
+   "match": "sub_884A",
+   "fn": "cgram_queue_flush_8937@591",
+   "cands": [
+    "sub_884A",
+    "bg_scroll_push_884A"
+   ]
+  },
+  {
+   "page": "16-rendering-pipeline.md",
+   "wline": 206,
+   "ref": "assets.c:326-365",
+   "file": "assets.c",
+   "line": 326,
+   "endline": 365,
+   "status": "VALID",
+   "match": "per_view_tile_bank",
+   "fn": null,
+   "cands": [
+    "per_view_tile_bank",
+    "per_view_tile_src",
+    "per_view_palette_bank",
+    "per_view_palette_src"
+   ]
+  },
+  {
+   "page": "16-rendering-pipeline.md",
+   "wline": 224,
+   "ref": "render_helpers.c:98",
+   "file": "render_helpers.c",
+   "line": 98,
+   "endline": 98,
+   "status": "VALID",
+   "match": "sub_8AED",
+   "fn": null,
+   "cands": [
+    "sub_8AED",
+    "per_view_palette_bank",
+    "per_view_palette_src"
+   ]
+  },
+  {
+   "page": "16-rendering-pipeline.md",
+   "wline": 230,
+   "ref": "simant.c:556-595",
+   "file": "simant.c",
+   "line": 556,
+   "endline": 595,
+   "status": "VALID",
+   "match": "sub_8937",
+   "fn": "vram_queue_flush_C804@550",
+   "cands": [
+    "sub_8AED",
+    "sub_8937"
+   ]
+  },
+  {
+   "page": "16-rendering-pipeline.md",
+   "wline": 255,
+   "ref": "simant.c:897-925",
+   "file": "simant.c",
+   "line": 897,
+   "endline": 925,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": "save_signature_write_AA2E@857",
+   "cands": [
+    "ASL"
+   ]
+  },
+  {
+   "page": "16-rendering-pipeline.md",
+   "wline": 263,
+   "ref": "assets.c:117-150",
+   "file": "assets.c",
+   "line": 117,
+   "endline": 150,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": null,
+   "cands": [
+    "ASL",
+    "ASSET_VERIFY_RESULTS"
+   ]
+  },
+  {
+   "page": "16-rendering-pipeline.md",
+   "wline": 305,
+   "ref": "simant.c:455",
+   "file": "simant.c",
+   "line": 455,
+   "endline": 455,
+   "status": "WRONG_LINE",
+   "match": null,
+   "fn": "lz_decompress_03_8467_FOUND_HERE@914",
+   "cands": [
+    "lz_decompress_03_8467"
+   ]
+  },
+  {
+   "page": "16-rendering-pipeline.md",
+   "wline": 307,
+   "ref": "simant.c:897",
+   "file": "simant.c",
+   "line": 897,
+   "endline": 897,
+   "status": "VALID",
+   "match": "lz_decompress_03_8467",
+   "fn": "save_signature_write_AA2E@857",
+   "cands": [
+    "lz_decompress_03_8467"
+   ]
+  },
+  {
+   "page": "17-audio.md",
+   "wline": 31,
+   "ref": "simant.c:954-967",
+   "file": "simant.c",
+   "line": 954,
+   "endline": 967,
+   "status": "VALID",
+   "match": "APUIO0",
+   "fn": "asset_decompress_to_scratch_8D7E@951",
+   "cands": [
+    "APUIO0"
+   ]
+  },
+  {
+   "page": "17-audio.md",
+   "wline": 37,
+   "ref": "simant.c:1007-1008",
+   "file": "simant.c",
+   "line": 1007,
+   "endline": 1008,
+   "status": "VALID",
+   "match": "APUIO0",
+   "fn": "boot_init_BB8D@1004",
+   "cands": [
+    "APUIO0"
+   ]
+  },
+  {
+   "page": "17-audio.md",
+   "wline": 70,
+   "ref": "audio_driver.c:315-326",
+   "file": "audio_driver.c",
+   "line": 315,
+   "endline": 326,
+   "status": "VALID",
+   "match": "driver_entry_0600",
+   "fn": "dsp_read@128",
+   "cands": [
+    "driver_entry_0600",
+    "driver_main_loop_0611"
+   ]
+  },
+  {
+   "page": "17-audio.md",
+   "wline": 71,
+   "ref": "audio_driver.c:331",
+   "file": "audio_driver.c",
+   "line": 331,
+   "endline": 331,
+   "status": "VALID",
+   "match": "driver_entry_0600",
+   "fn": "driver_entry_0600@320",
+   "cands": [
+    "driver_entry_0600",
+    "driver_main_loop_0611"
+   ]
+  },
+  {
+   "page": "17-audio.md",
+   "wline": 87,
+   "ref": "audio_intro.c:167-170",
+   "file": "audio_intro.c",
+   "line": 167,
+   "endline": 170,
+   "status": "VALID",
+   "match": "APUIO0",
+   "fn": null,
+   "cands": [
+    "driver_entry_0600",
+    "driver_main_loop_0611",
+    "APUIO0",
+    "APUIO3",
+    "apu_send_music_8E88",
+    "apu_play_sfx_8EA3"
+   ]
+  },
+  {
+   "page": "17-audio.md",
+   "wline": 104,
+   "ref": "audio_intro.c:172-178",
+   "file": "audio_intro.c",
+   "line": 172,
+   "endline": 178,
+   "status": "VALID",
+   "match": "APUIO0",
+   "fn": null,
+   "cands": [
+    "APUIO0",
+    "APUIO3",
+    "apu_send_music_8E88",
+    "apu_play_sfx_8EA3"
+   ]
+  },
+  {
+   "page": "17-audio.md",
+   "wline": 118,
+   "ref": "simant.c:762-766",
+   "file": "simant.c",
+   "line": 762,
+   "endline": 766,
+   "status": "VALID",
+   "match": "play_sfx_and_fade_8611",
+   "fn": "cursor_action_B_9DB1@751",
+   "cands": [
+    "play_sfx_and_fade_8611",
+    "APUIO0",
+    "apu_play_sfx_8EA3"
+   ]
+  },
+  {
+   "page": "17-audio.md",
+   "wline": 126,
+   "ref": "audio_intro.c:212-257",
+   "file": "audio_intro.c",
+   "line": 212,
+   "endline": 257,
+   "status": "VALID",
+   "match": "play_sfx_and_fade_8611",
+   "fn": null,
+   "cands": [
+    "play_sfx_and_fade_8611",
+    "APUIO0",
+    "start_song_at_index_06DA"
+   ]
+  },
+  {
+   "page": "17-audio.md",
+   "wline": 127,
+   "ref": "audio_driver.c:1476-1499",
+   "file": "audio_driver.c",
+   "line": 1476,
+   "endline": 1499,
+   "status": "VALID",
+   "match": "start_song_at_index_06DA",
+   "fn": "driver_init_0F3A@1382",
+   "cands": [
+    "play_sfx_and_fade_8611",
+    "APUIO0",
+    "start_song_at_index_06DA"
+   ]
+  },
+  {
+   "page": "17-audio.md",
+   "wline": 184,
+   "ref": "audio_driver.c:1055-1067",
+   "file": "audio_driver.c",
+   "line": 1055,
+   "endline": 1067,
+   "status": "VALID",
+   "match": "compute_pitch_09FF",
+   "fn": "song_event_dispatch_099B@1043",
+   "cands": [
+    "compute_pitch_09FF",
+    "event_set_instr",
+    "event_pan",
+    "event_keypress",
+    "event_pitch_env",
+    "event_vol_env"
+   ]
+  },
+  {
+   "page": "17-audio.md",
+   "wline": 207,
+   "ref": "audio_driver.c:1565-1607",
+   "file": "audio_driver.c",
+   "line": 1565,
+   "endline": 1607,
+   "status": "VALID",
+   "match": "pitch_to_dsp_or_noise_0E07",
+   "fn": "__unused_anchor@1534",
+   "cands": [
+    "pitch_to_dsp_or_noise_0E07",
+    "apply_pan_to_dsp_0DE0"
+   ]
+  },
+  {
+   "page": "17-audio.md",
+   "wline": 213,
+   "ref": "audio_driver.c:1568-1572",
+   "file": "audio_driver.c",
+   "line": 1568,
+   "endline": 1572,
+   "status": "VALID",
+   "match": "pitch_to_dsp_or_noise_0E07",
+   "fn": "__unused_anchor@1534",
+   "cands": [
+    "pitch_to_dsp_or_noise_0E07",
+    "apply_pan_to_dsp_0DE0"
+   ]
+  },
+  {
+   "page": "17-audio.md",
+   "wline": 240,
+   "ref": "audio_driver.c:1113-1124",
+   "file": "audio_driver.c",
+   "line": 1113,
+   "endline": 1124,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": "song_event_dispatch_099B@1043",
+   "cands": []
+  },
+  {
+   "page": "17-audio.md",
+   "wline": 278,
+   "ref": "audio_driver.c:315",
+   "file": "audio_driver.c",
+   "line": 315,
+   "endline": 315,
+   "status": "VALID",
+   "match": "driver_entry_0600",
+   "fn": "dsp_read@128",
+   "cands": [
+    "apu_send_music_8E88",
+    "apu_play_sfx_8EA3",
+    "driver_entry_0600",
+    "song_event_dispatch_099B"
+   ]
+  },
+  {
+   "page": "17-audio.md",
+   "wline": 280,
+   "ref": "audio_driver.c:1032",
+   "file": "audio_driver.c",
+   "line": 1032,
+   "endline": 1032,
+   "status": "VALID",
+   "match": "song_event_dispatch_099B",
+   "fn": "song_tick_08E2@970",
+   "cands": [
+    "apu_send_music_8E88",
+    "apu_play_sfx_8EA3",
+    "driver_entry_0600",
+    "song_event_dispatch_099B"
+   ]
+  },
+  {
+   "page": "17-audio.md",
+   "wline": 282,
+   "ref": "simant.c:762",
+   "file": "simant.c",
+   "line": 762,
+   "endline": 762,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": "cursor_action_B_9DB1@751",
+   "cands": [
+    "apu_play_sfx_8EA3",
+    "driver_entry_0600",
+    "song_event_dispatch_099B"
+   ]
+  },
+  {
+   "page": "17-audio.md",
+   "wline": 294,
+   "ref": "save_options.c:733-810",
+   "file": "save_options.c",
+   "line": 733,
+   "endline": 810,
+   "status": "UNVERIFIED",
+   "match": null,
+   "fn": "erase_full_save_00_9608@728",
+   "cands": []
+  },
+  {
+   "page": "18-save-load.md",
+   "wline": 51,
+   "ref": "save_options.c:181-185",
+   "file": "save_options.c",
+   "line": 181,
+   "endline": 185,
+   "status": "VALID",
+   "match": "save_signature_write_AA2E",
+   "fn": "__attribute__@168",
+   "cands": [
+    "save_signature_write_AA2E"
+   ]
+  },
+  {
+   "page": "18-save-load.md",
+   "wline": 61,
+   "ref": "save_options.c:171-172",
+   "file": "save_options.c",
+   "line": 171,
+   "endline": 172,
+   "status": "VALID",
+   "match": "SAVE_SIG_DOBBY",
+   "fn": "__attribute__@168",
+   "cands": [
+    "SAVE_SIG_DOBBY",
+    "SAVE_SIG_DURRY"
+   ]
+  },
+  {
+   "page": "18-save-load.md",
+   "wline": 82,
+   "ref": "save_options.c:259-293",
+   "file": "save_options.c",
+   "line": 259,
+   "endline": 293,
+   "status": "VALID",
+   "match": "DOBBY",
+   "fn": "__attribute__@168",
+   "cands": [
+    "DOBBY",
+    "DURRY",
+    "save_full_game_03_F988"
+   ]
+  },
+  {
+   "page": "18-save-load.md",
+   "wline": 98,
+   "ref": "save_options.c:175",
+   "file": "save_options.c",
+   "line": 175,
+   "endline": 175,
+   "status": "VALID",
+   "match": "save_full_game_03_F988",
+   "fn": "__attribute__@168",
+   "cands": [
+    "save_full_game_03_F988",
+    "DURRY",
+    "sub_BC53"
+   ]
+  },
+  {
+   "page": "18-save-load.md",
+   "wline": 121,
+   "ref": "save_options.c:389-397",
+   "file": "save_options.c",
+   "line": 389,
+   "endline": 397,
+   "status": "VALID",
+   "match": "save_checksum_03_FC3A",
+   "fn": "save_scenario_03_F9B9_impl@358",
+   "cands": [
+    "save_checksum_03_FC3A"
+   ]
+  },
+  {
+   "page": "18-save-load.md",
+   "wline": 143,
+   "ref": "save_options.c:376-388",
+   "file": "save_options.c",
+   "line": 376,
+   "endline": 388,
+   "status": "WRONG_LINE",
+   "match": null,
+   "fn": "save_game_959D_FOUND_HERE@101",
+   "cands": [
+    "save_game_959D"
+   ]
+  },
+  {
+   "page": "18-save-load.md",
+   "wline": 169,
+   "ref": "save_options.c:18-30",
+   "file": "save_options.c",
+   "line": 18,
+   "endline": 30,
+   "status": "WRONG_LINE",
+   "match": null,
+   "fn": "save_full_game_03_F988_FOUND_HERE@153",
+   "cands": [
+    "save_full_game_03_F988",
+    "save_scenario_03_F9B9",
+    "load_game_03_FA74",
+    "load_signature_check_03_FACB",
+    "save_checksum_03_FC3A"
+   ]
+  },
+  {
+   "page": "18-save-load.md",
+   "wline": 185,
+   "ref": "save_options.c:507-524",
+   "file": "save_options.c",
+   "line": 507,
+   "endline": 524,
+   "status": "VALID",
+   "match": "re_check_03_FACB",
+   "fn": "save_checksum_03_FC3A@400",
+   "cands": [
+    "re_check_03_FACB",
+    "save_checksum_03_FC3A",
+    "load_signature_check_03_FACB"
+   ]
+  },
+  {
+   "page": "18-save-load.md",
+   "wline": 221,
+   "ref": "save_options.c:526-602",
+   "file": "save_options.c",
+   "line": 526,
+   "endline": 602,
+   "status": "VALID",
+   "match": "load_game_03_FA74_impl",
+   "fn": "load_signature_check_03_FACB@520",
+   "cands": [
+    "load_game_03_FA74_impl"
+   ]
+  },
+  {
+   "page": "18-save-load.md",
+   "wline": 227,
+   "ref": "save_options.c:715-723",
+   "file": "save_options.c",
+   "line": 715,
+   "endline": 723,
+   "status": "WRONG_LINE",
+   "match": null,
+   "fn": "load_game_03_FA74_impl_FOUND_HERE@539",
+   "cands": [
+    "load_game_03_FA74_impl"
+   ]
+  },
+  {
+   "page": "18-save-load.md",
+   "wline": 232,
+   "ref": "save_options.c:725-730",
+   "file": "save_options.c",
+   "line": 725,
+   "endline": 730,
+   "status": "VALID",
+   "match": "erase_scenario_slot_00_A986",
+   "fn": "full_save_is_occupied@694",
+   "cands": [
+    "load_game_03_FA74_impl",
+    "erase_scenario_slot_00_A986",
+    "SRAM_NUM_SCN_SLOTS",
+    "SRAM_SCN_SLOTS_OFF",
+    "SRAM_SLOT_SIZE"
+   ]
+  },
+  {
+   "page": "18-save-load.md",
+   "wline": 305,
+   "ref": "save_options.c:259",
+   "file": "save_options.c",
+   "line": 259,
+   "endline": 259,
+   "status": "VALID",
+   "match": "save_ui_dispatch_9E36",
+   "fn": "__attribute__@168",
+   "cands": [
+    "save_ui_dispatch_9E36",
+    "save_checksum_03_FC3A"
+   ]
+  },
+  {
+   "page": "18-save-load.md",
+   "wline": 307,
+   "ref": "save_options.c:389",
+   "file": "save_options.c",
+   "line": 389,
+   "endline": 389,
+   "status": "VALID",
+   "match": "save_checksum_03_FC3A",
+   "fn": "save_scenario_03_F9B9_impl@358",
+   "cands": [
+    "save_ui_dispatch_9E36",
+    "save_checksum_03_FC3A",
+    "load_signature_check_03_FACB"
+   ]
+  },
+  {
+   "page": "18-save-load.md",
+   "wline": 310,
+   "ref": "save_options.c:507",
+   "file": "save_options.c",
+   "line": 507,
+   "endline": 507,
+   "status": "VALID",
+   "match": "load_signature_check_03_FACB",
+   "fn": "save_checksum_03_FC3A@400",
+   "cands": [
+    "save_ui_dispatch_9E36",
+    "save_checksum_03_FC3A",
+    "load_signature_check_03_FACB"
+   ]
+  },
+  {
+   "page": "18-save-load.md",
+   "wline": 323,
+   "ref": "save_options.c:611",
+   "file": "save_options.c",
+   "line": 611,
+   "endline": 611,
+   "status": "VALID",
+   "match": "load_signature_check_03_FACB",
+   "fn": "load_game_03_FA74_impl@539",
+   "cands": [
+    "load_signature_check_03_FACB"
+   ]
+  }
+ ],
+ "wiki_links": [
+  {
+   "page": "01-architecture.md",
+   "wline": 17,
+   "target": "02-simulation-tick.md",
+   "ok": true
+  },
+  {
+   "page": "01-architecture.md",
+   "wline": 18,
+   "target": "03-rng.md",
+   "ok": true
+  },
+  {
+   "page": "01-architecture.md",
+   "wline": 223,
+   "target": "02-simulation-tick.md",
+   "ok": true
+  },
+  {
+   "page": "02-simulation-tick.md",
+   "wline": 3,
+   "target": "01-architecture.md",
+   "ok": true
+  },
+  {
+   "page": "03-rng.md",
+   "wline": 12,
+   "target": "../RNG_TEST_RESULTS.md",
+   "ok": true
+  },
+  {
+   "page": "03-rng.md",
+   "wline": 202,
+   "target": "../RNG_TEST_RESULTS.md",
+   "ok": true
+  },
+  {
+   "page": "04-entity-system.md",
+   "wline": 10,
+   "target": "05-yellow-ant.md",
+   "ok": true
+  },
+  {
+   "page": "04-entity-system.md",
+   "wline": 11,
+   "target": "06-pathfinding.md",
+   "ok": true
+  },
+  {
+   "page": "04-entity-system.md",
+   "wline": 12,
+   "target": "../ENTITIES.md",
+   "ok": true
+  },
+  {
+   "page": "04-entity-system.md",
+   "wline": 66,
+   "target": "../ENTITIES.md",
+   "ok": true
+  },
+  {
+   "page": "04-entity-system.md",
+   "wline": 170,
+   "target": "../V4_5_DIAGRAMS.md",
+   "ok": true
+  },
+  {
+   "page": "04-entity-system.md",
+   "wline": 185,
+   "target": "../ENTITIES.md",
+   "ok": true
+  },
+  {
+   "page": "04-entity-system.md",
+   "wline": 186,
+   "target": "../V4_8_DISPATCH_TABLES.md",
+   "ok": true
+  },
+  {
+   "page": "04-entity-system.md",
+   "wline": 187,
+   "target": "05-yellow-ant.md",
+   "ok": true
+  },
+  {
+   "page": "04-entity-system.md",
+   "wline": 188,
+   "target": "06-pathfinding.md",
+   "ok": true
+  },
+  {
+   "page": "04-entity-system.md",
+   "wline": 189,
+   "target": "../V4_4_MANUAL_TO_CODE.md",
+   "ok": true
+  },
+  {
+   "page": "05-yellow-ant.md",
+   "wline": 13,
+   "target": "04-entity-system.md",
+   "ok": true
+  },
+  {
+   "page": "05-yellow-ant.md",
+   "wline": 14,
+   "target": "06-pathfinding.md",
+   "ok": true
+  },
+  {
+   "page": "05-yellow-ant.md",
+   "wline": 65,
+   "target": "../ENTITIES.md",
+   "ok": true
+  },
+  {
+   "page": "05-yellow-ant.md",
+   "wline": 100,
+   "target": "06-pathfinding.md",
+   "ok": true
+  },
+  {
+   "page": "05-yellow-ant.md",
+   "wline": 134,
+   "target": "../V4_6_FLIPPER_PORT.md",
+   "ok": true
+  },
+  {
+   "page": "06-pathfinding.md",
+   "wline": 10,
+   "target": "04-entity-system.md",
+   "ok": true
+  },
+  {
+   "page": "06-pathfinding.md",
+   "wline": 11,
+   "target": "05-yellow-ant.md",
+   "ok": true
+  },
+  {
+   "page": "07-scent-system.md",
+   "wline": 205,
+   "target": "08-combat.md",
+   "ok": true
+  },
+  {
+   "page": "08-combat.md",
+   "wline": 159,
+   "target": "07-scent-system.md",
+   "ok": true
+  },
+  {
+   "page": "13-player-actions.md",
+   "wline": 10,
+   "target": "02-simulation-tick.md",
+   "ok": true
+  },
+  {
+   "page": "13-player-actions.md",
+   "wline": 11,
+   "target": "../ENTITIES.md",
+   "ok": true
+  },
+  {
+   "page": "13-player-actions.md",
+   "wline": 12,
+   "target": "15-dangers.md",
+   "ok": true
+  },
+  {
+   "page": "13-player-actions.md",
+   "wline": 209,
+   "target": "15-dangers.md",
+   "ok": true
+  },
+  {
+   "page": "14-scenarios.md",
+   "wline": 9,
+   "target": "15-dangers.md",
+   "ok": true
+  },
+  {
+   "page": "14-scenarios.md",
+   "wline": 11,
+   "target": "01-architecture.md",
+   "ok": true
+  },
+  {
+   "page": "14-scenarios.md",
+   "wline": 132,
+   "target": "15-dangers.md",
+   "ok": true
+  },
+  {
+   "page": "15-dangers.md",
+   "wline": 12,
+   "target": "14-scenarios.md",
+   "ok": true
+  },
+  {
+   "page": "15-dangers.md",
+   "wline": 14,
+   "target": "13-player-actions.md",
+   "ok": true
+  },
+  {
+   "page": "16-rendering-pipeline.md",
+   "wline": 11,
+   "target": "01-architecture.md",
+   "ok": true
+  },
+  {
+   "page": "16-rendering-pipeline.md",
+   "wline": 26,
+   "target": "01-architecture.md",
+   "ok": true
+  },
+  {
+   "page": "17-audio.md",
+   "wline": 15,
+   "target": "01-architecture.md",
+   "ok": true
+  }
+ ]
+}

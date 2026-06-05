@@ -1,0 +1,695 @@
+=== SimAnt (SNES) — ROM info ===
+
+Title:           'SimAnt               '
+Mapper byte:     $20  (LoROM, SlowROM)
+Cartridge type:  $02
+ROM size:        $0A  (1024 KB nominal)
+RAM size:        $05  (32 KB SRAM)
+Region:          $01  (NTSC)
+Dev ID:          $62
+Version:         $00
+Checksum:        $90F9  complement $6F06
+
+Native-mode vectors (CPU runs in native after RESET sets it up):
+  COP    -> $FFE0  (file $07FE0)
+  BRK    -> $FFE1  (file $07FE1)
+  ABORT  -> $FFE2  (file $07FE2)
+  NMI    -> $803E  (file $0003E)
+  IRQ    -> $FFE3  (file $07FE3)
+
+Emulation-mode vectors (used at power-on):
+  COP     -> $FFE0  (file $07FE0)
+  ABORT   -> $FFE2  (file $07FE2)
+  NMI     -> $803E  (file $0003E)
+  RESET   -> $8009  (file $00009)
+  IRQ/BRK -> $FFE3  (file $07FE3)
+
+=== RESET @ $8009 (emulation mode entry) ===
+00:8009  78          SEI
+00:800A  D8          CLD
+00:800B  18          CLC
+00:800C  FB          XCE
+00:800D  E2 20       SEP #$20
+00:800F  A9 00       LDA #$00
+00:8011  48          PHA
+00:8012  AB          PLB
+00:8013  A9 00       LDA #$00
+00:8015  EB          XBA
+00:8016  A9 00       LDA #$00
+00:8018  5B          TCD
+00:8019  C2 20       REP #$20
+00:801B  C2 10       REP #$10
+00:801D  9C 0B 42    STZ $420B ; MDMAEN
+00:8020  9C 0C 42    STZ $420C ; HDMAEN
+00:8023  C2 20       REP #$20
+00:8025  A2 00 00    LDX #$0000
+00:8028  A9 00 00    LDA #$0000
+00:802B  9D 00 00    STA $0000,x
+00:802E  E8          INX
+00:802F  E8          INX
+00:8030  E0 00 20    CPX #$2000
+00:8033  D0 F6       BNE $802B
+00:8035  E2 20       SEP #$20
+00:8037  A2 FF 03    LDX #$03FF
+00:803A  9A          TXS
+00:803B  4C 40 93    JMP $9340
+00:803E  C2 30       REP #$30
+00:8040  48          PHA
+00:8041  DA          PHX
+00:8042  5A          PHY
+00:8043  8B          PHB
+00:8044  0B          PHD
+00:8045  E2 20       SEP #$20
+00:8047  C2 10       REP #$10
+00:8049  A9 00       LDA #$00
+00:804B  48          PHA
+00:804C  AB          PLB
+00:804D  A9 01       LDA #$01
+00:804F  EB          XBA
+00:8050  A9 00       LDA #$00
+00:8052  5B          TCD
+00:8053  AD 10 42    LDA $4210 ; RDNMI
+00:8056  A9 00       LDA #$00
+00:8058  8D 00 43    STA $4300
+00:805B  A9 04       LDA #$04
+00:805D  8D 01 43    STA $4301
+00:8060  A2 00 0D    LDX #$0D00
+00:8063  8E 02 43    STX $4302
+00:8066  A9 00       LDA #$00
+00:8068  8D 04 43    STA $4304
+00:806B  A2 20 02    LDX #$0220
+00:806E  8E 05 43    STX $4305
+00:8071  A9 01       LDA #$01
+00:8073  8D 0B 42    STA $420B ; MDMAEN
+00:8076  20 4F 81    JSR $814F
+00:8079  A5 00       LDA $00
+00:807B  29 01       AND #$01
+00:807D  D0 05       BNE $8084
+00:807F  20 53 85    JSR $8553
+00:8082  80 03       BRA $8087
+00:8084  20 B2 85    JSR $85B2
+00:8087  20 04 C8    JSR $C804
+00:808A  20 37 89    JSR $8937
+00:808D  20 4A 88    JSR $884A
+00:8090  20 A5 88    JSR $88A5
+00:8093  22 66 99 04 JSL $049966
+00:8097  20 01 81    JSR $8101
+00:809A  E6 00       INC $00
+00:809C  E6 01       INC $01
+00:809E  A5 01       LDA $01
+00:80A0  C9 3C       CMP #$3C
+00:80A2  90 18       BCC $80BC
+00:80A4  64 01       STZ $01
+00:80A6  E6 02       INC $02
+00:80A8  A5 02       LDA $02
+00:80AA  C9 3C       CMP #$3C
+00:80AC  90 0E       BCC $80BC
+00:80AE  64 02       STZ $02
+00:80B0  E6 03       INC $03
+00:80B2  A5 03       LDA $03
+00:80B4  C9 3C       CMP #$3C
+00:80B6  90 04       BCC $80BC
+00:80B8  64 03       STZ $03
+00:80BA  E6 04       INC $04
+00:80BC  A9 00       LDA #$00
+00:80BE  EB          XBA
+00:80BF  A9 00       LDA #$00
+00:80C1  5B          TCD
+00:80C2  A5 00       LDA $00
+00:80C4  C9 04       CMP #$04
+00:80C6  D0 08       BNE $80D0
+00:80C8  EE B9 02    INC $02B9
+00:80CB  D0 03       BNE $80D0
+00:80CD  EE BA 02    INC $02BA
+00:80D0  A4 00       LDY $00
+00:80D2  BA          TSX
+00:80D3  96 0A       STX $0A,y
+00:80D5  C8          INY
+00:80D6  C8          INY
+00:80D7  C4 02       CPY $02
+00:80D9  90 03       BCC $80DE
+00:80DB  A0 02 00    LDY #$0002
+00:80DE  B9 22 00    LDA $0022,y
+00:80E1  F0 F2       BEQ $80D5
+00:80E3  B9 1A 00    LDA $001A,y
+00:80E6  3A          DEC
+00:80E7  F0 05       BEQ $80EE
+00:80E9  99 1A 00    STA $001A,y
+00:80EC  80 E7       BRA $80D5
+00:80EE  B9 12 00    LDA $0012,y
+00:80F1  99 1A 00    STA $001A,y
+00:80F4  84 00       STY $00
+00:80F6  B6 0A       LDX $0A,y
+00:80F8  9A          TXS
+00:80F9  C2 30       REP #$30
+00:80FB  2B          PLD
+00:80FC  AB          PLB
+00:80FD  7A          PLY
+00:80FE  FA          PLX
+00:80FF  68          PLA
+00:8100  40          RTI
+00:8101  AD 71 00    LDA $0071
+00:8104  D0 0C       BNE $8112
+00:8106  AD 61 01    LDA $0161
+
+=== NMI @ $803E (full, 0x200 bytes) ===
+00:803E  C2 30       REP #$30
+00:8040  48          PHA
+00:8041  DA          PHX
+00:8042  5A          PHY
+00:8043  8B          PHB
+00:8044  0B          PHD
+00:8045  E2 20       SEP #$20
+00:8047  C2 10       REP #$10
+00:8049  A9 00       LDA #$00
+00:804B  48          PHA
+00:804C  AB          PLB
+00:804D  A9 01       LDA #$01
+00:804F  EB          XBA
+00:8050  A9 00       LDA #$00
+00:8052  5B          TCD
+00:8053  AD 10 42    LDA $4210 ; RDNMI
+00:8056  A9 00       LDA #$00
+00:8058  8D 00 43    STA $4300
+00:805B  A9 04       LDA #$04
+00:805D  8D 01 43    STA $4301
+00:8060  A2 00 0D    LDX #$0D00
+00:8063  8E 02 43    STX $4302
+00:8066  A9 00       LDA #$00
+00:8068  8D 04 43    STA $4304
+00:806B  A2 20 02    LDX #$0220
+00:806E  8E 05 43    STX $4305
+00:8071  A9 01       LDA #$01
+00:8073  8D 0B 42    STA $420B ; MDMAEN
+00:8076  20 4F 81    JSR $814F
+00:8079  A5 00       LDA $00
+00:807B  29 01       AND #$01
+00:807D  D0 05       BNE $8084
+00:807F  20 53 85    JSR $8553
+00:8082  80 03       BRA $8087
+00:8084  20 B2 85    JSR $85B2
+00:8087  20 04 C8    JSR $C804
+00:808A  20 37 89    JSR $8937
+00:808D  20 4A 88    JSR $884A
+00:8090  20 A5 88    JSR $88A5
+00:8093  22 66 99 04 JSL $049966
+00:8097  20 01 81    JSR $8101
+00:809A  E6 00       INC $00
+00:809C  E6 01       INC $01
+00:809E  A5 01       LDA $01
+00:80A0  C9 3C       CMP #$3C
+00:80A2  90 18       BCC $80BC
+00:80A4  64 01       STZ $01
+00:80A6  E6 02       INC $02
+00:80A8  A5 02       LDA $02
+00:80AA  C9 3C       CMP #$3C
+00:80AC  90 0E       BCC $80BC
+00:80AE  64 02       STZ $02
+00:80B0  E6 03       INC $03
+00:80B2  A5 03       LDA $03
+00:80B4  C9 3C       CMP #$3C
+00:80B6  90 04       BCC $80BC
+00:80B8  64 03       STZ $03
+00:80BA  E6 04       INC $04
+00:80BC  A9 00       LDA #$00
+00:80BE  EB          XBA
+00:80BF  A9 00       LDA #$00
+00:80C1  5B          TCD
+00:80C2  A5 00       LDA $00
+00:80C4  C9 04       CMP #$04
+00:80C6  D0 08       BNE $80D0
+00:80C8  EE B9 02    INC $02B9
+00:80CB  D0 03       BNE $80D0
+00:80CD  EE BA 02    INC $02BA
+00:80D0  A4 00       LDY $00
+00:80D2  BA          TSX
+00:80D3  96 0A       STX $0A,y
+00:80D5  C8          INY
+00:80D6  C8          INY
+00:80D7  C4 02       CPY $02
+00:80D9  90 03       BCC $80DE
+00:80DB  A0 02 00    LDY #$0002
+00:80DE  B9 22 00    LDA $0022,y
+00:80E1  F0 F2       BEQ $80D5
+00:80E3  B9 1A 00    LDA $001A,y
+00:80E6  3A          DEC
+00:80E7  F0 05       BEQ $80EE
+00:80E9  99 1A 00    STA $001A,y
+00:80EC  80 E7       BRA $80D5
+00:80EE  B9 12 00    LDA $0012,y
+00:80F1  99 1A 00    STA $001A,y
+00:80F4  84 00       STY $00
+00:80F6  B6 0A       LDX $0A,y
+00:80F8  9A          TXS
+00:80F9  C2 30       REP #$30
+00:80FB  2B          PLD
+00:80FC  AB          PLB
+00:80FD  7A          PLY
+00:80FE  FA          PLX
+00:80FF  68          PLA
+00:8100  40          RTI
+00:8101  AD 71 00    LDA $0071
+00:8104  D0 0C       BNE $8112
+00:8106  AD 61 01    LDA $0161
+00:8109  29 10 F0    AND #$F010
+00:810C  05 A9       ORA $A9
+00:810E  01 8D       ORA ($8D,x)
+00:8110  2A          ROL
+00:8111  00 60       BRK #$60
+00:8113  85 05       STA $05
+00:8115  86 06       STX $06
+00:8117  BA          TSX
+00:8118  86 08       STX $08
+00:811A  A5 02       LDA $02
+00:811C  4A          LSR
+00:811D  18          CLC
+00:811E  69 03 EB    ADC #$EB03
+00:8121  A9 FF 1B    LDA #$1BFF
+00:8124  A5 05       LDA $05
+00:8126  48          PHA
+00:8127  A6 06       LDX $06
+00:8129  DA          PHX
+00:812A  08          PHP
+00:812B  DA          PHX
+00:812C  DA          PHX
+00:812D  DA          PHX
+00:812E  8B          PHB
+00:812F  A5 02       LDA $02
+00:8131  4A          LSR
+00:8132  EB          XBA
+00:8133  A9 00 AA    LDA #$AA00
+00:8136  DA          PHX
+00:8137  A4 02       LDY $02
+00:8139  BA          TSX
+00:813A  96 0A       STX $0A,y
+00:813C  A9 01 99    LDA #$9901
+00:813F  12 00       ORA ($00)
+00:8141  99 1A 00    STA $001A,y
+00:8144  99 22 00    STA $0022,y
+00:8147  C8          INY
+00:8148  C8          INY
+00:8149  84 02       STY $02
+00:814B  A6 08       LDX $08
+00:814D  9A          TXS
+00:814E  60          RTS
+00:814F  A5 88       LDA $88
+00:8151  EB          XBA
+00:8152  A9 00 EB    LDA #$EB00
+00:8155  0A          ASL
+00:8156  AA          TAX
+00:8157  7C 5A 81    JMP ($815A)
+00:815A  A4 81       LDY $81
+00:815C  A5 81       LDA $81
+00:815E  B4 81       LDY $81,x
+00:8160  C3 81       CMP $81,s
+00:8162  D2 81       CMP ($81)
+00:8164  E1 81       SBC ($81,x)
+00:8166  F0 81       BEQ $80E9
+00:8168  FF 81 0E 82 SBC $820E81,x
+00:816C  37 82       AND [$82],y
+00:816E  60          RTS
+00:816F  82 89 82    BRL $03FB
+00:8172  DA          PHX
+00:8173  82 03 83    BRL $0479
+00:8176  2C 83 3D    BIT $3D83
+00:8179  83 4E       STA $4E,s
+00:817B  83 5F       STA $5F,s
+00:817D  83 70       STA $70,s
+00:817F  83 81       STA $81,s
+00:8181  83 92       STA $92,s
+00:8183  83 A3       STA $A3,s
+00:8185  83 B4       STA $B4,s
+00:8187  83 C5       STA $C5,s
+00:8189  83 D6       STA $D6,s
+00:818B  83 E7       STA $E7,s
+00:818D  83 F8       STA $F8,s
+00:818F  83 09       STA $09,s
+00:8191  84 1A       STY $1A
+00:8193  84 2B       STY $2B
+00:8195  84 3C       STY $3C
+00:8197  84 65       STY $65
+00:8199  84 B6       STY $B6
+00:819B  84 F6       STY $F6
+00:819D  84 07       STY $07
+00:819F  85 18       STA $18
+00:81A1  85 41       STA $41
+00:81A3  85 60       STA $60
+00:81A5  A0 00 30    LDY #$3000
+00:81A8  8C 02 43    STY $4302
+00:81AB  A0 00 08    LDY #$0800
+00:81AE  8C 16 21    STY $2116 ; VMADDL
+00:81B1  4C 1A 82    JMP $821A
+00:81B4  A0 00 38    LDY #$3800
+00:81B7  8C 02 43    STY $4302
+00:81BA  A0 00 0C    LDY #$0C00
+00:81BD  8C 16 21    STY $2116 ; VMADDL
+00:81C0  4C 1A 82    JMP $821A
+00:81C3  A0 00 40    LDY #$4000
+00:81C6  8C 02 43    STY $4302
+00:81C9  A0 00 10    LDY #$1000
+00:81CC  8C 16 21    STY $2116 ; VMADDL
+00:81CF  4C 1A 82    JMP $821A
+00:81D2  A0 00 48    LDY #$4800
+00:81D5  8C 02 43    STY $4302
+00:81D8  A0 00 14    LDY #$1400
+00:81DB  8C 16 21    STY $2116 ; VMADDL
+00:81DE  4C 1A 82    JMP $821A
+00:81E1  A0 00 50    LDY #$5000
+00:81E4  8C 02 43    STY $4302
+00:81E7  A0 00 18    LDY #$1800
+00:81EA  8C 16 21    STY $2116 ; VMADDL
+00:81ED  4C 1A 82    JMP $821A
+00:81F0  A0 00 58    LDY #$5800
+00:81F3  8C 02 43    STY $4302
+00:81F6  A0 00 1C    LDY #$1C00
+00:81F9  8C 16 21    STY $2116 ; VMADDL
+00:81FC  4C 1A 82    JMP $821A
+00:81FF  A0 00 60    LDY #$6000
+00:8202  8C 02 43    STY $4302
+00:8205  A0 00 20    LDY #$2000
+00:8208  8C 16 21    STY $2116 ; VMADDL
+00:820B  4C 1A 82    JMP $821A
+00:820E  A0 00 68    LDY #$6800
+00:8211  8C 02 43    STY $4302
+00:8214  A0 00 24    LDY #$2400
+00:8217  8C 16 21    STY $2116 ; VMADDL
+00:821A  A9 01 8D    LDA #$8D01
+00:821D  00 43       BRK #$43
+00:821F  A9 18 8D    LDA #$8D18
+00:8222  01 43       ORA ($43,x)
+00:8224  A9 7E 8D    LDA #$8D7E
+00:8227  04 43       TSB $43
+00:8229  A0 00 08    LDY #$0800
+00:822C  8C 05 43    STY $4305
+00:822F  A9 01 8D    LDA #$8D01
+00:8232  0B          PHD
+00:8233  42 64       WDM #$64
+00:8235  88          DEY
+00:8236  60          RTS
+00:8237  A0 00 70    LDY #$7000
+00:823A  8C 16 21    STY $2116 ; VMADDL
+00:823D  A9 01 8D    LDA #$8D01
+
+
+========== SUBROUTINES CALLED FROM NMI ==========
+
+--- sub_814F (NMI: 1st call, runs every frame) @ $814F ---
+00:814F  A5 88       LDA $88
+00:8151  EB          XBA
+00:8152  A9 00       LDA #$00
+00:8154  EB          XBA
+00:8155  0A          ASL
+00:8156  AA          TAX
+00:8157  7C 5A 81    JMP ($815A)
+
+--- sub_8553 (NMI: even-frame work) @ $8553 ---
+00:8553  A5 57       LDA $57
+00:8555  C5 58       CMP $58
+00:8557  D0 01       BNE $855A
+00:8559  60          RTS
+
+--- sub_85B2 (NMI: odd-frame work) @ $85B2 ---
+00:85B2  A5 5B       LDA $5B
+00:85B4  C9 04       CMP #$04
+00:85B6  90 01       BCC $85B9
+00:85B8  60          RTS
+
+--- sub_C804 (NMI: every-frame after odd/even) @ $C804 ---
+00:C804  C2 20       REP #$20
+00:C806  A2 00 00    LDX #$0000
+00:C809  E4 2C       CPX $2C
+00:C80B  F0 17       BEQ $C824
+00:C80D  BD 00 0C    LDA $0C00,x
+00:C810  E8          INX
+00:C811  E8          INX
+00:C812  8D 16 21    STA $2116 ; VMADDL
+00:C815  BD 00 0C    LDA $0C00,x
+00:C818  E8          INX
+00:C819  E8          INX
+00:C81A  C9 FF FF    CMP #$FFFF
+00:C81D  F0 EA       BEQ $C809
+00:C81F  8D 18 21    STA $2118 ; VMDATAL
+00:C822  80 F1       BRA $C815
+00:C824  A9 00 00    LDA #$0000
+00:C827  85 2C       STA $2C
+00:C829  E2 20       SEP #$20
+00:C82B  60          RTS
+
+--- sub_8937 (NMI) @ $8937 ---
+00:8937  A2 00 00    LDX #$0000
+00:893A  E4 2E       CPX $2E
+00:893C  D0 06       BNE $8944
+00:893E  A0 00 00    LDY #$0000
+00:8941  84 2E       STY $2E
+00:8943  60          RTS
+
+--- sub_884A (NMI) @ $884A ---
+00:884A  A5 46       LDA $46
+00:884C  8D 0D 21    STA $210D ; BG1HOFS
+00:884F  A5 47       LDA $47
+00:8851  8D 0D 21    STA $210D ; BG1HOFS
+00:8854  A5 48       LDA $48
+00:8856  8D 0E 21    STA $210E ; BG1VOFS
+00:8859  A5 49       LDA $49
+00:885B  8D 0E 21    STA $210E ; BG1VOFS
+00:885E  A5 4A       LDA $4A
+00:8860  8D 0F 21    STA $210F ; BG2HOFS
+00:8863  A5 4B       LDA $4B
+00:8865  8D 0F 21    STA $210F ; BG2HOFS
+00:8868  A5 4C       LDA $4C
+00:886A  8D 10 21    STA $2110 ; BG2VOFS
+00:886D  A5 4D       LDA $4D
+00:886F  8D 10 21    STA $2110 ; BG2VOFS
+00:8872  A5 4E       LDA $4E
+00:8874  8D 11 21    STA $2111 ; BG3HOFS
+00:8877  A5 4F       LDA $4F
+00:8879  8D 11 21    STA $2111 ; BG3HOFS
+00:887C  A5 50       LDA $50
+00:887E  8D 12 21    STA $2112 ; BG3VOFS
+00:8881  A5 51       LDA $51
+00:8883  8D 12 21    STA $2112 ; BG3VOFS
+00:8886  60          RTS
+
+--- sub_88A5 (NMI) @ $88A5 ---
+00:88A5  C2 20       REP #$20
+00:88A7  A2 00 00    LDX #$0000
+00:88AA  A9 80 E0    LDA #$E080
+00:88AD  9D 00 0D    STA $0D00,x
+00:88B0  E8          INX
+00:88B1  E8          INX
+00:88B2  E8          INX
+00:88B3  E8          INX
+00:88B4  E0 00 02    CPX #$0200
+00:88B7  D0 F4       BNE $88AD
+00:88B9  A9 55 55    LDA #$5555
+00:88BC  9D 00 0D    STA $0D00,x
+00:88BF  E8          INX
+00:88C0  E8          INX
+00:88C1  E0 20 02    CPX #$0220
+00:88C4  D0 F6       BNE $88BC
+00:88C6  A9 10 00    LDA #$0010
+00:88C9  85 32       STA $32
+00:88CB  A9 10 01    LDA #$0110
+00:88CE  85 34       STA $34
+00:88D0  E2 20       SEP #$20
+00:88D2  60          RTS
+
+--- sub_8101 (NMI: last before clock tick) @ $8101 ---
+00:8101  AD 71 00    LDA $0071
+00:8104  D0 0C       BNE $8112
+00:8106  AD 61 01    LDA $0161
+00:8109  29 10       AND #$10
+00:810B  F0 05       BEQ $8112
+00:810D  A9 01       LDA #$01
+00:810F  8D 2A 00    STA $002A
+00:8112  60          RTS
+
+
+========== BANK 04 NMI HELPER ==========
+
+--- sub_049966 @ $04:9966 ---
+04:9966  8B          PHB
+04:9967  A9 04       LDA #$04
+04:9969  48          PHA
+04:996A  AB          PLB
+04:996B  A2 00 06    LDX #$0600
+04:996E  80 21       BRA $9991
+04:9970  BD 00 00    LDA $0000,x
+04:9973  F0 12       BEQ $9987
+04:9975  EB          XBA
+04:9976  A9 00       LDA #$00
+04:9978  EB          XBA
+04:9979  0A          ASL
+04:997A  A8          TAY
+04:997B  C2 20       REP #$20
+04:997D  B9 30 9A    LDA $9A30,y
+04:9980  85 82       STA $82
+04:9982  E2 20       SEP #$20
+04:9984  20 D2 DC    JSR $DCD2
+04:9987  C2 20       REP #$20
+04:9989  8A          TXA
+04:998A  18          CLC
+04:998B  69 14 00    ADC #$0014
+04:998E  AA          TAX
+04:998F  E2 20       SEP #$20
+04:9991  E4 30       CPX $30
+04:9993  90 DB       BCC $9970
+04:9995  20 9A 99    JSR $999A
+04:9998  AB          PLB
+04:9999  6B          RTL
+
+
+========== MAIN INIT REACHED FROM RESET ==========
+
+--- main_9340 (RESET tail jumps here) @ $9340 ---
+00:9340  A0 02 00    LDY #$0002
+00:9343  84 02       STY $02
+00:9345  A9 00       LDA #$00
+00:9347  A2 5C 93    LDX #$935C
+00:934A  20 13 81    JSR $8113
+00:934D  A9 01       LDA #$01
+00:934F  EB          XBA
+00:9350  A9 00       LDA #$00
+00:9352  5B          TCD
+00:9353  58          CLI
+00:9354  20 8D BB    JSR $BB8D
+00:9357  20 6D 89    JSR $896D
+00:935A  80 FE       BRA $935A
+00:935C  A5 0B       LDA $0B
+00:935E  EB          XBA
+00:935F  A9 00       LDA #$00
+00:9361  EB          XBA
+00:9362  0A          ASL
+00:9363  AA          TAX
+00:9364  FC 69 93    JSR ($9369)
+00:9367  80 F3       BRA $935C
+00:9369  F3 AC       SBC ($AC,s),y
+00:936B  5B          TCD
+00:936C  AD 63 AC    LDA $AC63
+00:936F  E8          INX
+00:9370  AC 55 B1    LDY $B155
+00:9373  8C B1 7B    STY $7BB1
+00:9376  B0 FC       BCS $9374
+00:9378  B0 9F       BCS $9319
+00:937A  B1 BF       LDA ($BF),y
+00:937C  B1 1A       LDA ($1A),y
+00:937E  B2 81       LDA ($81)
+
+--- sub_BB8D (1st main init call) @ $BB8D ---
+00:BB8D  A9 80       LDA #$80
+00:BB8F  8D 00 21    STA $2100 ; INIDISP
+00:BB92  20 7F BC    JSR $BC7F
+00:BB95  A9 81       LDA #$81
+00:BB97  85 0A       STA $0A
+00:BB99  20 18 C3    JSR $C318
+00:BB9C  A9 FF       LDA #$FF
+00:BB9E  8D 32 00    STA $0032
+00:BBA1  A9 78       LDA #$78
+00:BBA3  85 89       STA $89
+00:BBA5  20 94 8D    JSR $8D94
+00:BBA8  A9 01       LDA #$01
+00:BBAA  8D 30 00    STA $0030
+00:BBAD  9C 31 00    STZ $0031
+00:BBB0  A9 28       LDA #$28
+00:BBB2  8D 2F 00    STA $002F
+00:BBB5  A9 2C       LDA #$2C
+00:BBB7  85 8C       STA $8C
+00:BBB9  8D 2E 00    STA $002E
+00:BBBC  A9 04       LDA #$04
+00:BBBE  85 64       STA $64
+00:BBC0  9C B1 02    STZ $02B1
+00:BBC3  9C B3 02    STZ $02B3
+00:BBC6  9C B4 02    STZ $02B4
+00:BBC9  64 44       STZ $44
+00:BBCB  64 45       STZ $45
+00:BBCD  9C 81 00    STZ $0081
+00:BBD0  64 21       STZ $21
+00:BBD2  A9 FF       LDA #$FF
+00:BBD4  8D 4E 00    STA $004E
+00:BBD7  A9 01       LDA #$01
+00:BBD9  8D 33 00    STA $0033
+00:BBDC  8D 34 00    STA $0034
+00:BBDF  8D 35 00    STA $0035
+00:BBE2  8D 36 00    STA $0036
+00:BBE5  9C 37 00    STZ $0037
+00:BBE8  9C 38 00    STZ $0038
+00:BBEB  9C 39 00    STZ $0039
+00:BBEE  9C 3A 00    STZ $003A
+00:BBF1  A9 01       LDA #$01
+00:BBF3  8D 45 00    STA $0045
+00:BBF6  A9 00       LDA #$00
+00:BBF8  8D 46 00    STA $0046
+00:BBFB  A9 FF       LDA #$FF
+00:BBFD  8D 47 00    STA $0047
+00:BC00  8D 48 00    STA $0048
+00:BC03  A9 01       LDA #$01
+00:BC05  8D 44 00    STA $0044
+00:BC08  8D 4F 00    STA $004F
+00:BC0B  A9 00       LDA #$00
+00:BC0D  8D 69 02    STA $0269
+00:BC10  A9 00       LDA #$00
+00:BC12  8F 45 E7 7F STA $7FE745
+00:BC16  C2 20       REP #$20
+00:BC18  A9 13 00    LDA #$0013
+00:BC1B  8F 10 E7 7F STA $7FE710
+00:BC1F  A9 44 00    LDA #$0044
+00:BC22  8F 12 E7 7F STA $7FE712
+00:BC26  A9 09 00    LDA #$0009
+00:BC29  8F 14 E7 7F STA $7FE714
+00:BC2D  A9 1C 00    LDA #$001C
+00:BC30  8F 16 E7 7F STA $7FE716
+00:BC34  A9 82 01    LDA #$0182
+00:BC37  8F 18 E7 7F STA $7FE718
+00:BC3B  E2 20       SEP #$20
+00:BC3D  A2 00 0A    LDX #$0A00
+00:BC40  22 00 80 08 JSL $088000
+00:BC44  A9 02       LDA #$02
+00:BC46  8D 73 00    STA $0073
+00:BC49  A2 00 00    LDX #$0000
+00:BC4C  20 94 E4    JSR $E494
+00:BC4F  20 53 BC    JSR $BC53
+00:BC52  60          RTS
+
+--- sub_896D (2nd main init — task setup?) @ $896D ---
+00:896D  20 67 89    JSR $8967
+00:8970  A5 0A       LDA $0A
+00:8972  8D 00 42    STA $4200 ; NMITIMEN
+00:8975  60          RTS
+
+
+--- Entity handler table @ $04:9A30 (first 0x40 bytes) ---
+  table[ 0] = $04:9B1A
+  table[ 1] = $04:9D9D
+  table[ 2] = $04:9B9B
+  table[ 3] = $04:9B1B
+  table[ 4] = $04:9B30
+  table[ 5] = $04:9B41
+  table[ 6] = $04:9C46
+  table[ 7] = $04:9CC6
+  table[ 8] = $04:9CF0
+  table[ 9] = $04:9E3F
+  table[10] = $04:9E9C
+  table[11] = $04:9F1D
+  table[12] = $04:9F7A
+  table[13] = $04:9FE0
+  table[14] = $04:A112
+  table[15] = $04:A222
+  table[16] = $04:A356
+  table[17] = $04:A43B
+  table[18] = $04:A533
+  table[19] = $04:A533
+  table[20] = $04:A6C5
+  table[21] = $04:A356
+  table[22] = $04:9E9C
+  table[23] = $04:A8D9
+  table[24] = $04:A951
+  table[25] = $04:A9A1
+  table[26] = $04:AB0B
+  table[27] = $04:AB5B
+  table[28] = $04:AC3A
+  table[29] = $04:AD01
+  table[30] = $04:B17F
+  table[31] = $04:B547
+
+--- sub_04DCD2 (entity dispatch helper) @ $DCD2 ---
+04:DCD2  6C 82 01    JMP ($0182)
